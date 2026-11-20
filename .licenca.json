@@ -1,0 +1,25 @@
+{
+  "email": "tetinho009@gmail.com",
+  "maquina": "1c14f40dafa54d0997cbbbfa3d4b9edc",
+  "ultima_ok": "2026-11-20T20:21:38.396748+00:00",
+  "versao_conferida_em": "2026-11-20T20:21:38.396748+00:00",
+  "plano": "padrao",
+  "desde": "2026-11-20",
+  "atualizacoes_ate": "2027-11-20",
+  "oferta_sempre": "https://pay.cakto.com.br/5cg6255",
+  "suporte": {
+    "telegram": "https://temporadaviral.com/telegram",
+    "email": "contato@temporadaviral.com",
+    "resposta": "em até 12 horas, do meio-dia à meia-noite"
+  },
+  "versao": {
+    "numero": "2.16",
+    "data": "2026-11-19",
+    "tamanho": 26471847,
+    "sha256": "5e633f97efb5dcef42179a34f81e48661b57b5531560c9fa51d1e8a6a72b004f",
+    "novidades": [
+      "Comunidade Temporada Viral"
+    ],
+    "liberada": true
+  }
+}
