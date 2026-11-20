@@ -25,7 +25,8 @@
   "estilo_padrao": "terror-voto"
  },
  "voz": {
-  "provedor": "elevenlabs"
+  "provedor": "gemini",
+  "estilo_gemini": "narrador brasileiro, sotaque do Brasil, homem de uns 35 anos, voz grave, sussurrada e tensa, ritmo lento"
  },
  "capa": {
   "layout": "titulo_e_personagem"

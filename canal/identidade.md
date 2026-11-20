@@ -32,7 +32,7 @@ As duas cores do voto (opção 1 e opção 2) ficam fixas no canal inteiro: na t
 
 ## Voz
 
-- Provedor e voz escolhidos: ElevenLabs (voz a escolher entre 3 amostras, quando a chave estiver ligada)
+- Provedor e voz escolhidos: Gemini TTS, voz grátis do Google (voz a escolher entre Charon e Orus, quando a chave estiver ligada)
 - Direção (ex.: "grave, contido, pausado"): homem, uns 35 anos, grave, contido e pausado, quase sussurro
 - Travada desde o vídeo: 
 

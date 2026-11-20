@@ -27,7 +27,7 @@ modo: direto
 | Marca registrada | todo vídeo abre com o letreiro do ônibus mostrando a hora (0h40, 0h41...) e cada parte termina com o mesmo som da campainha de parada |
 | Capa e cor | padrão de série; voto coral #FF6B4A x azul-céu #4FB3FF, destaque amarelo #FFC83D; logo a fazer (kit/idv) |
 | Assinatura do fim (CTA) | "A próxima parada depende de vocês. Segue pra não perder a parte 2." |
-| Narrador (voz e ferramenta) | homem, uns 35 anos, grave, contido e pausado, quase sussurro; ElevenLabs (chave pendente; voz a escolher em 3 amostras) |
+| Narrador (voz e ferramenta) | homem, uns 35 anos, grave, contido e pausado, quase sussurro; voz grátis do Google, Gemini TTS (chave pendente; voz a escolher em 3 amostras) |
 | Onde produz | celular (Claude Code na nuvem, render na CPU) |
 | Pilha | Criador (ElevenLabs Starter) |
 | Modo | nuvem (celular) |
