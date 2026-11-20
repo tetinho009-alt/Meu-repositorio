@@ -10,3 +10,6 @@ Formato de cada entrada:
 - **Regra:** o que passa a ser feito, e por quê em uma linha.
 
 ## Entradas
+
+- **2026-11-20 · pedido seu:** o Davi no traço cápsula (corpo de feijão) não agradou.
+  **Regra:** personagens do canal com proporção de gente (formato de corpo mais realista), nunca o corpo de feijão.

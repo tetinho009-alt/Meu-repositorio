@@ -1,0 +1,16 @@
+{
+  "descricao": "Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans",
+  "molde": {
+    "pele": "#B97C55",
+    "roupa": "#4A6FA5",
+    "calca": "#2B2F3A",
+    "sapato": "#1E1E24",
+    "iris": "#2A1A14",
+    "cabelo": "#1F1611",
+    "acessorio": "#E8553F",
+    "acessorios": [
+      "topete"
+    ],
+    "cilios": false
+  }
+}

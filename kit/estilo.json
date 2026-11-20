@@ -1,0 +1,240 @@
+{
+  "versao": 2,
+  "mundo": "papel",
+  "semente": 275510,
+  "respostas": {
+    "clima": "sombrio",
+    "lugar": "cidade_hoje",
+    "recorte": "estilete",
+    "cor": "destaque",
+    "proporcao": "realista",
+    "ameaca": "presenca",
+    "textura": "cartolina"
+  },
+  "paleta": {
+    "papel": [
+      233,
+      220,
+      224
+    ],
+    "tinta": [
+      19,
+      31,
+      43
+    ],
+    "sombra": [
+      7,
+      13,
+      18
+    ],
+    "puxa": [
+      42,
+      62,
+      81
+    ],
+    "apoio": [
+      36,
+      43,
+      50
+    ],
+    "destaque": [
+      39,
+      172,
+      59
+    ],
+    "opcoes": [
+      [
+        39,
+        172,
+        59
+      ],
+      [
+        46,
+        59,
+        98
+      ]
+    ],
+    "papeis": [
+      [
+        72,
+        84,
+        100
+      ],
+      [
+        41,
+        49,
+        73
+      ],
+      [
+        86,
+        113,
+        126
+      ],
+      [
+        36,
+        43,
+        50
+      ],
+      [
+        124,
+        157,
+        167
+      ]
+    ]
+  },
+  "gradacao": {
+    "tom": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "saturacao": 0.993
+  },
+  "acabamento": {
+    "papel": 0.075,
+    "vinheta": 0.211,
+    "grao": 0.019,
+    "fibras": 0.396,
+    "manchas": 0.092,
+    "seda": 0.431,
+    "efeito": null
+  },
+  "recorte": {
+    "borda": 0.43,
+    "passo": 30.19,
+    "tipo": "estilete",
+    "sombra_dx": -4.61,
+    "sombra_dy": 8.58,
+    "sombra_alfa": 0.49
+  },
+  "traco": {
+    "larg": 1.0,
+    "fervura": 0.0,
+    "pena": 1.0,
+    "hachura": 1.0,
+    "alfa": 255,
+    "ferve_hz": 12,
+    "angulo_hachura": 0.0
+  },
+  "corpo": {
+    "cabeca": 0.8,
+    "largura": 1.024,
+    "alto": 1.012,
+    "membro": 1.268,
+    "mao": "luva",
+    "pe": "bota"
+  },
+  "rosto": {
+    "olho": "recortado"
+  },
+  "fontes": {
+    "titulo": "LuckiestGuy-Regular.ttf",
+    "texto": "SpecialElite-Regular.ttf"
+  },
+  "capa": {
+    "layout": "etiqueta",
+    "fundo": [
+      23,
+      28,
+      32
+    ],
+    "titulo": [
+      233,
+      220,
+      224
+    ],
+    "destaque": [
+      39,
+      172,
+      59
+    ]
+  },
+  "elenco": [
+    {
+      "nome": "Igor",
+      "papel": "protagonista",
+      "molde": {
+        "pele": "#C68A62",
+        "pele_sombra": "#A67352",
+        "cabelo": "#1A1416",
+        "roupa": "#27AC3B",
+        "roupa_esc": "#1C7F2B",
+        "calca": "#191E23",
+        "calca_esc": "#13171B",
+        "sapato": "#131F2B",
+        "sola": "#221C1A",
+        "iris": "#2E4258",
+        "roupa_tipo": "moletom",
+        "sapato_tipo": "sapatilha",
+        "cabelo_estilo": "cacheado",
+        "cilios": false,
+        "rosto": "redondo",
+        "nariz": "triangulo",
+        "bochecha": false,
+        "olheira": 0.0,
+        "labios": "cheia"
+      }
+    },
+    {
+      "nome": "Ícaro",
+      "papel": "adulto",
+      "molde": {
+        "pele": "#A86F4C",
+        "pele_sombra": "#8D5D3F",
+        "cabelo": "#B07A42",
+        "roupa": "#242B32",
+        "roupa_esc": "#1A1F25",
+        "calca": "#191E23",
+        "calca_esc": "#13171B",
+        "sapato": "#131F2B",
+        "sola": "#221C1A",
+        "iris": "#3E4A2A",
+        "roupa_tipo": "blusa",
+        "sapato_tipo": "tenis",
+        "cabelo_estilo": "curto",
+        "cilios": false,
+        "rosto": "oval",
+        "nariz": "bolinha",
+        "bochecha": true,
+        "rugas": 1,
+        "olheira": 0.0,
+        "labios": "cheia"
+      }
+    },
+    {
+      "nome": "Dona Lurdes",
+      "papel": "idoso",
+      "molde": {
+        "pele": "#A86F4C",
+        "pele_sombra": "#8D5D3F",
+        "cabelo": "#E6E8EA",
+        "roupa": "#485464",
+        "roupa_esc": "#353E4A",
+        "calca": "#202639",
+        "calca_esc": "#181D2C",
+        "sapato": "#131F2B",
+        "sola": "#221C1A",
+        "iris": "#3A2416",
+        "roupa_tipo": "moletom",
+        "sapato_tipo": "sapatilha",
+        "cabelo_estilo": "coque",
+        "cilios": true,
+        "rosto": "oval",
+        "nariz": "bolinha",
+        "bochecha": false,
+        "rugas": 2,
+        "labios": "murcha",
+        "curvada": 0.69,
+        "olheira": 0.0
+      }
+    }
+  ],
+  "cenario": {
+    "puxa": 0.875,
+    "torto": 0.534,
+    "moldura": "nenhuma",
+    "lua_lado": -1,
+    "lua_tam": 1.192,
+    "corvos": false
+  }
+}

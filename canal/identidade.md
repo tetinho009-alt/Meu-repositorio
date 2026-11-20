@@ -4,6 +4,8 @@
 
 ## Estilo (Atlas de Estilos)
 
+Estilo: semente 275510, sombrio · estilete · destaque · realista · cartolina (estilo desenhado, recorte de papel; `kit/estilo.json`, aprovado em 20/11/2026). Vale para a série inteira. A identidade do canal (logo, capas) continua em coral e azul-céu.
+
 Escolhido: **Noite de Bairro** (fundo tinta `#0F1424`, coral `#FF6B4A`, céu `#4FB3FF`; luz de poste, vinheta, grão leve)
 
 | Estilo | Cores | Luz e textura | Melhor para |
@@ -25,7 +27,7 @@ As duas cores do voto (opção 1 e opção 2) ficam fixas no canal inteiro: na t
 ## Personagem principal
 
 - Descrição: Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans, crachá pendurado. Lugar padrão: ponto de ônibus sob um poste, numa avenida vazia.
-- Arquivo do personagem (quando existir): `kit/personagens/<nome>/`
+- Arquivo do personagem: protagonista do elenco do estilo desenhado (`kit/estilo.json`, papel "protagonista"), renomeado para Davi, com jaqueta jeans por cima do moletom. O boneco cápsula `kit/personagens/davi/` foi recusado (corpo de feijão).
 - Regras: adulto ou adolescente; cabelo feminino longo ou coque; nunca criança como chamariz de capa.
 
 ## Voz
