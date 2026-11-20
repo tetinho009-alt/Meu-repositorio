@@ -92,6 +92,17 @@ def preparar():
     F = falas
     m = S.Mesa(total)
     m.poe(0.0, narr, voz=True)
+    _poe = m.poe
+
+    def poe_mono(t0, x, **kw):   # os efeitos do estilo desenhado saem em estéreo; a mesa recebe mono e faz o pan
+        x = np.asarray(x)
+        if x.ndim == 2:
+            x = x.mean(axis=1)
+        if SD.SR != S.SR:
+            x = np.interp(np.linspace(0, len(x) - 1, int(len(x) * S.SR / SD.SR)), np.arange(len(x)), x)
+        return _poe(t0, x, **kw)
+    m.poe = poe_mono
+
     def ate(i):
         return F[i]["seg0"]
     motor = SD._passa_baixa(S.drone(total + 1, f=38.0) * 1.0 + np.random.default_rng(3).normal(0, 0.05, int((total + 1) * S.SR)), 220)

@@ -1,0 +1,13 @@
+{
+  "serie": "O Último Ônibus",
+  "parte": 1,
+  "titulo": "O ponto que não existe",
+  "pergunta": "O que o Davi faz?",
+  "opcoes": [
+    ["Desce", "e encara o ponto sem placa"],
+    ["Fica", "e segue pra onde o ônibus for"]
+  ],
+  "palavras_voto": { "1": ["DESCE", "DESCER", "SAI", "VAI LÁ"], "2": ["FICA", "FICAR", "NÃO DESCE", "CONTINUA"] },
+  "nega": { "1": "2", "2": "1" },
+  "gancho": ["O PONTO", "NÃO EXISTE"]
+}

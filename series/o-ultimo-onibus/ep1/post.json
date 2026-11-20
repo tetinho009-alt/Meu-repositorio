@@ -1,0 +1,19 @@
+{
+  "instagram": {
+    "texto": "O Último Ônibus · Parte 1 · \"O ponto que não existe\" 🚌\n\nO 340 das 00:40 é o último da noite. Todo mundo na avenida sabe: ele não para fora do ponto. Nunca.\n\nHoje ele parou. Num ponto sem placa, numa rua que não está no mapa. E lá do escuro, alguém chamou o nome do Davi.\n\nE agora: o Davi desce ou fica no ônibus?\nO que vocês escolherem vira a Parte 2.\n\n🎧 Assiste de fone.\nFicção · personagens, linha e lugar inventados. Narração com voz sintética.",
+    "hashtags": ["#terror", "#historiadeterror", "#suspense", "#animacao", "#misterio"],
+    "rotulo_ia": true
+  },
+  "tiktok": {
+    "texto": "O último ônibus da noite parou num ponto que não existe. E alguém chamou o Davi do escuro. 🚌 Ele desce ou fica? O que vocês escolherem vira a Parte 2. Ficção · personagens inventados. 🎧",
+    "hashtags": ["#terror", "#historiadeterror", "#suspense", "#animacao"],
+    "comentario_fixado": "A Parte 2 sai assim que a votação fechar. Desce ou fica: o que a maioria escolher acontece.",
+    "rotulo_ia": true
+  },
+  "youtube": {
+    "titulo": "O Último Ônibus · Parte 1 · O ponto que não existe",
+    "descricao": "O 340 das 00:40 é o último da noite, e ele nunca para fora do ponto. Hoje ele parou numa rua que não está no mapa, e alguém chamou o nome do Davi lá do escuro.\n\nE agora: desce ou fica? O que vocês escolherem vira a Parte 2.\n\nFicção · personagens, linha e lugar inventados. Narração com voz sintética.",
+    "hashtags": ["#terror", "#suspense", "#animacao"],
+    "sintetico": true
+  }
+}

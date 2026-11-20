@@ -26,9 +26,13 @@
  },
  "voz": {
   "provedor": "gemini",
-  "estilo_gemini": "narrador brasileiro, sotaque do Brasil, homem de uns 35 anos, voz grave, sussurrada e tensa, ritmo lento"
+  "estilo_gemini": "narrador brasileiro, sotaque do Brasil, homem de uns 35 anos, voz grave, sussurrada e tensa, ritmo lento",
+  "voz_id": "Charon"
  },
  "capa": {
   "layout": "titulo_e_personagem"
+ },
+ "render": {
+  "fps": 30
  }
 }
