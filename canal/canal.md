@@ -1,7 +1,7 @@
 ---
 status: nao-configurado
 caminho: recomendado
-estilos:
+estilos: terror-voto
 ---
 
 # O canal
@@ -12,17 +12,17 @@ estilos:
 
 | Campo | Valor |
 |---|---|
-| Nome do canal | |
-| @ | |
+| Nome do canal | Rua Sem Saída |
+| @ | @ruasemsaida (conferir se está livre nas 3 redes) |
 | Redes | Instagram, TikTok, YouTube |
 | Caminho | recomendado (Claude Code na nuvem) |
-| Estilos | do catálogo `metodo/estilos/README.md` |
-| Tema ou nicho (e pra quem) | |
-| Primeira série | |
-| Lugar e cotidiano do público | |
-| Tom da narração | |
-| O que evitar | |
-| Personagem e lugar padrão | |
+| Estilos | terror e mistério com voto (terror-voto) |
+| Tema ou nicho (e pra quem) | suspense e terror urbano em partes, com voto; para quem pega condução de madrugada, 16 a 35 anos |
+| Primeira série | O Último Ônibus: o ônibus das 0h40 entra numa rua que não está no mapa. EP1: o motorista para e abre a porta num ponto que não existe. Desce ou fica? |
+| Lugar e cotidiano do público | ônibus de madrugada, ponto de ônibus, avenida vazia, periferia de cidade grande, volta do trabalho ou da faculdade |
+| Tom da narração | sério, sussurrado e tenso, como quem conta um segredo no fundo do ônibus |
+| O que evitar | susto barato com grito, sangue ou violência gráfica, gíria forçada |
+| Personagem e lugar padrão | Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans, crachá pendurado. Lugar padrão: ponto de ônibus sob um poste, numa avenida vazia |
 | Marca registrada | |
 | Capa e cor | |
 | Assinatura do fim (CTA) | |
