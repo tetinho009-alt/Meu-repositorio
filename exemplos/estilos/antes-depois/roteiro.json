@@ -1,0 +1,48 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo antes-depois, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/antes-depois",
+  "estilo": "antes-depois",
+  "amostra": true,
+  "nome": "exemplo_antes_depois",
+  "titulo": "A mesma ideia, duas capas",
+  "capa": "A mesma ideia, duas capas",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pf_dora"
+  },
+  "apresentador": {
+    "personagem": "lola",
+    "lado": "e"
+  },
+  "capa_destaque": [
+    "DUAS"
+  ],
+  "capa_rotulo": "ANTES E DEPOIS",
+  "blocos": [
+    {
+      "tipo": "gancho",
+      "fala": "A mesma ideia. Duas capas.",
+      "tela": "A MESMA IDEIA, DUAS CAPAS",
+      "destaque": [
+        "DUAS"
+      ]
+    },
+    {
+      "tipo": "antes_depois",
+      "fala": "Antes, ninguém parava. Depois, o dedo trava.",
+      "antes": "antes.jpg",
+      "depois": "depois.jpg",
+      "tela": "",
+      "destaque": [
+        "TRAVA"
+      ]
+    },
+    {
+      "tipo": "fim",
+      "fala": "Qual você clicava?",
+      "tela": "QUAL VOCÊ CLICAVA?",
+      "destaque": [
+        "CLICAVA"
+      ]
+    }
+  ]
+}

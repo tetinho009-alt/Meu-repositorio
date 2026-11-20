@@ -1,0 +1,46 @@
+{
+ "_sobre": "Modelo do estilo tipografia (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "tipografia",
+ "titulo": "TROQUE: a ideia do vídeo",
+ "capa": "TROQUE: a frase da capa",
+ "legenda": false,
+ "blur": 4,
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Charon"
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "TROQUE: a frase que derruba uma crença.",
+   "tela": "NÃO É O QUE VOCÊ PENSA",
+   "destaque": [
+    "NÃO"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "fala": "TROQUE: frase curta dois.",
+   "tela": "FRASE CURTA DOIS",
+   "destaque": [
+    "DOIS"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "fala": "TROQUE: frase curta três.",
+   "tela": "FRASE CURTA TRÊS",
+   "destaque": [
+    "TRÊS"
+   ]
+  },
+  {
+   "tipo": "fim",
+   "fala": "TROQUE: a frase-resumo, e uma pergunta aberta?",
+   "tela": "A FRASE-RESUMO",
+   "destaque": [
+    "RESUMO"
+   ]
+  }
+ ]
+}

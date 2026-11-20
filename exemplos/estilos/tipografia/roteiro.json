@@ -1,0 +1,50 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo tipografia, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/tipografia",
+  "estilo": "tipografia",
+  "amostra": true,
+  "nome": "exemplo_tipografia",
+  "titulo": "Ninguém vê o treino",
+  "capa": "Ninguém vê o treino",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pm_alex"
+  },
+  "capa_destaque": [
+    "TREINO"
+  ],
+  "capa_rotulo": "FRASE DO DIA",
+  "blocos": [
+    {
+      "tipo": "gancho",
+      "fala": "Ninguém vê o treino.",
+      "tela": "NINGUÉM VÊ O TREINO",
+      "destaque": [
+        "TREINO"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "fala": "Ninguém vê as vezes que deu errado.",
+      "tela": "NINGUÉM VÊ AS VEZES QUE DEU ERRADO",
+      "destaque": [
+        "ERRADO"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "fala": "Todo mundo vê o resultado.",
+      "tela": "TODO MUNDO VÊ O RESULTADO",
+      "destaque": [
+        "RESULTADO"
+      ]
+    },
+    {
+      "tipo": "fim",
+      "fala": "Então treina.",
+      "tela": "ENTÃO TREINA.",
+      "destaque": [
+        "TREINA"
+      ]
+    }
+  ]
+}

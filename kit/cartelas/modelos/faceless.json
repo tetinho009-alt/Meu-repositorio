@@ -1,0 +1,46 @@
+{
+ "_sobre": "Modelo do estilo faceless (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "faceless",
+ "titulo": "TROQUE: o mistério",
+ "capa": "TROQUE: título da capa",
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Charon"
+ },
+ "fontes": [
+  "TROQUE: fonte"
+ ],
+ "post": {
+  "texto": "TROQUE: duas frases e uma pergunta aberta.",
+  "hashtags": [
+   "#misterio"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "imagem",
+   "imagem": "img/01.jpg",
+   "fala": "TROQUE: a frase mais estranha.",
+   "tela": "TROQUE",
+   "destaque": []
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "img/02.jpg",
+   "fala": "TROQUE: o contexto.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "img/03.jpg",
+   "fala": "Só que... TROQUE: a virada.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "img/04.jpg",
+   "fala": "TROQUE: a revelação, e a pergunta aberta?",
+   "tela": "TROQUE"
+  }
+ ]
+}

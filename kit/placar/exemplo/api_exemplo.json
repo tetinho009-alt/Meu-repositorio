@@ -1,0 +1,83 @@
+{
+  "_leia": "Respostas fictícias no formato real das APIs (Instagram Graph, YouTube Data v3, TikTok Display), para testar o placar sem chave e sem rede. Chave: '<api> <caminho>'.",
+
+  "ig /me": { "username": "seu_perfil", "id": "17800000000000000" },
+  "ig /me/media": {
+    "data": [
+      { "id": "17900000000000001", "permalink": "https://www.instagram.com/reel/EXEMPLO123/", "comments_count": 13, "like_count": 412 },
+      { "id": "17900000000000002", "permalink": "https://www.instagram.com/reel/EXEMPLO456/", "comments_count": 3, "like_count": 88 }
+    ]
+  },
+  "ig /17900000000000001/comments": {
+    "data": [
+      { "id": "c01", "text": "1", "username": "leitor_a", "timestamp": "2026-11-02T01:10:00+0000" },
+      { "id": "c02", "text": "ENTRAR com certeza", "username": "leitor_b", "timestamp": "2026-11-02T01:12:00+0000" },
+      { "id": "c03", "text": "fugir", "username": "leitor_c", "timestamp": "2026-11-02T01:15:00+0000" },
+      { "id": "c04", "text": "entrar ou fugir? difícil", "username": "leitor_d", "timestamp": "2026-11-02T01:20:00+0000" },
+      { "id": "c05", "text": "2", "username": "leitor_b", "timestamp": "2026-11-02T01:30:00+0000" },
+      { "id": "c06", "text": "𝒻𝓊𝑔𝒾𝓇", "username": "leitor_f", "timestamp": "2026-11-02T02:00:00+0000" },
+      { "id": "c07", "text": "Votei 1 mas tô com medo", "username": "seu_perfil", "timestamp": "2026-11-02T02:05:00+0000" }
+    ],
+    "paging": { "next": "https://graph.instagram.com/v21.0/17900000000000001/comments?after=PAGINA2" }
+  },
+  "ig /17900000000000001/comments ?after=PAGINA2": {
+    "data": [
+      { "id": "c08", "text": "corre Lola!! @amiga_x olha isso", "username": "leitor_g", "timestamp": "2026-11-02T03:00:00+0000" },
+      { "id": "c09", "text": "Entra", "from": { "id": "900001", "username": "leitor_h" }, "timestamp": "2026-11-02T04:00:00+0000" },
+      { "id": "c10", "text": "2222", "username": "leitor_i", "timestamp": "2026-11-02T05:00:00+0000" },
+      { "id": "c11", "text": "não entra não", "username": "leitor_j", "timestamp": "2026-11-02T06:00:00+0000" },
+      { "id": "c12", "text": "cadê a parte 2??", "username": "leitor_k", "timestamp": "2026-11-02T07:00:00+0000" },
+      { "id": "c13", "text": "1", "username": "leitor_atrasado", "timestamp": "2026-11-05T12:00:00+0000" }
+    ]
+  },
+  "ig /17900000000000001/insights": {
+    "data": [
+      { "name": "views", "total_value": { "value": 15230 } },
+      { "name": "reach", "total_value": { "value": 11800 } },
+      { "name": "saved", "total_value": { "value": 96 } },
+      { "name": "shares", "total_value": { "value": 41 } }
+    ]
+  },
+  "ig /17900000000000002/comments": {
+    "data": [
+      { "id": "d01", "text": "sobe", "username": "leitor_a", "timestamp": "2026-11-04T01:10:00+0000" },
+      { "id": "d02", "text": "DESCE PRO PORÃO", "username": "leitor_b", "timestamp": "2026-11-04T01:12:00+0000" },
+      { "id": "d03", "text": "1", "username": "leitor_c", "timestamp": "2026-11-04T01:15:00+0000" }
+    ]
+  },
+  "ig /17900000000000002/insights": { "_erro": "HTTP 400: sem permissão de insights" },
+
+  "yt /videos": {
+    "items": [
+      {
+        "id": "EXEMPLO0001",
+        "snippet": { "channelId": "UC_SEU_CANAL", "title": "A Luz da Casa 7 · Parte 1" },
+        "statistics": { "viewCount": "8120", "likeCount": "350", "commentCount": "5" }
+      }
+    ]
+  },
+  "yt /commentThreads EXEMPLO0001": {
+    "items": [
+      { "id": "y1", "snippet": { "topLevelComment": { "snippet": { "authorChannelId": { "value": "UC_A" }, "textOriginal": "fugir", "publishedAt": "2026-11-02T02:00:00Z" } } } },
+      { "id": "y2", "snippet": { "topLevelComment": { "snippet": { "authorChannelId": { "value": "UC_B" }, "textOriginal": "1!", "publishedAt": "2026-11-02T02:10:00Z" } } } },
+      { "id": "y3", "snippet": { "topLevelComment": { "snippet": { "authorChannelId": { "value": "UC_SEU_CANAL" }, "textOriginal": "Votação até domingo, 22h.", "publishedAt": "2026-11-02T00:10:00Z" } } } }
+    ],
+    "nextPageToken": "PAG2"
+  },
+  "yt /commentThreads EXEMPLO0001 PAG2": {
+    "items": [
+      { "id": "y4", "snippet": { "topLevelComment": { "snippet": { "authorChannelId": { "value": "UC_C" }, "textOriginal": "CORRER", "publishedAt": "2026-11-02T03:00:00Z" } } } },
+      { "id": "y5", "snippet": { "topLevelComment": { "snippet": { "authorChannelId": { "value": "UC_A" }, "textOriginal": "mudei: 1", "publishedAt": "2026-11-02T04:00:00Z" } } } }
+    ]
+  },
+
+  "tt /oauth/token/": { "access_token": "EXEMPLO", "expires_in": 86400, "refresh_token": "EXEMPLO", "open_id": "x", "scope": "user.info.basic,video.list" },
+  "tt /video/list/": {
+    "data": {
+      "videos": [ { "id": "7400000000000000001", "view_count": 22040, "like_count": 1210, "comment_count": 6, "share_count": 77 } ],
+      "cursor": 0,
+      "has_more": false
+    },
+    "error": { "code": "ok", "message": "" }
+  }
+}

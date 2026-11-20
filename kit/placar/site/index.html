@@ -1,0 +1,130 @@
+<!doctype html>
+<!-- © 2026 Temporada Viral. Licença de uso pessoal do comprador; redistribuição proibida. Termos: https://temporadaviral.com/termos.html | Autoria: AUTORIA.md | TVK-2026-AF-CC02968C -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Placar da votação</title>
+<meta name="description" content="Placar ao vivo da votação: os comentários do Instagram, do YouTube e do TikTok decidem a próxima parte.">
+<style>
+  /* Cores do canal: troque aqui. As cores de cada opção vêm do episodios.json. */
+  :root {
+    --fundo: #0f1424; --cartao: #181e31; --borda: #2a3350; --texto: #eef2fa; --suave: #9aa4ba;
+    --destaque: #4fb3ff; --ok: #4cd38c; --aviso: #ff6b4a; --raio: 18px;
+    --fonte: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --fundo: #f4f6fb; --cartao: #ffffff; --borda: #dde3ee; --texto: #141a2b; --suave: #56607a; --destaque: #2963c4; --ok: #1f8a55; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font-family: var(--fonte); line-height: 1.45; }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 64px; }
+  header h1 { font-size: clamp(1.6rem, 5vw, 2.3rem); margin: 0 0 4px; letter-spacing: -0.02em; }
+  header p { margin: 0; color: var(--suave); }
+  .regra { margin: 18px 0 26px; padding: 14px 16px; border: 1px solid var(--borda); border-radius: var(--raio);
+           background: var(--cartao); color: var(--suave); font-size: 0.95rem; }
+  .ep { background: var(--cartao); border: 1px solid var(--borda); border-radius: var(--raio); padding: 20px;
+        margin-bottom: 18px; }
+  .topo { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+  .serie { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--suave); }
+  .selo { font-size: 0.78rem; font-weight: 700; padding: 4px 10px; border-radius: 99px; background: var(--borda); }
+  .selo.votacao { background: color-mix(in srgb, var(--ok) 22%, transparent); color: var(--ok); }
+  .selo.encerrada { background: color-mix(in srgb, var(--destaque) 25%, transparent); color: var(--destaque); }
+  h2 { font-size: 1.35rem; margin: 6px 0 2px; }
+  .pergunta { margin: 0 0 14px; font-weight: 600; }
+  .barra { margin: 10px 0; }
+  .barra .linha { display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 4px; }
+  .trilho { height: 14px; border-radius: 99px; background: var(--borda); overflow: hidden; }
+  .enche { height: 100%; border-radius: 99px; transition: width 0.8s ease; }
+  .nota { color: var(--suave); font-size: 0.88rem; margin: 10px 0 0; }
+  .redes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .redes a { color: var(--texto); text-decoration: none; border: 1px solid var(--borda); border-radius: 99px;
+             padding: 7px 14px; font-size: 0.9rem; min-height: 40px; display: inline-flex; align-items: center; }
+  .redes a:hover, .redes a:focus-visible { border-color: var(--destaque); outline: none; }
+  .vazio { color: var(--suave); }
+  footer { color: var(--suave); font-size: 0.82rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="titulo">Placar da votação</h1>
+    <p id="sub">Vocês decidem a próxima parte.</p>
+  </header>
+  <p class="regra" id="regra">Comente a sua escolha no Instagram, no YouTube ou no TikTok. Vale o número ou a palavra
+    da opção, um voto por perfil em cada rede.</p>
+  <section id="lista" aria-live="polite"><p class="vazio">Carregando o placar...</p></section>
+  <footer id="rodape"></footer>
+</main>
+<script>
+  // Lê o placar.json gerado pelo placar.py (APIs oficiais). Nenhum número é escrito à mão nesta página.
+  const REDE = { instagram: "Instagram", youtube: "YouTube", tiktok: "TikTok" };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const num = (n) => Number(n || 0).toLocaleString("pt-BR");
+
+  function falta(ate) {
+    const ms = new Date(ate) - Date.now();
+    if (ms <= 0) return null;
+    const h = Math.floor(ms / 36e5), m = Math.floor((ms % 36e5) / 6e4), s = Math.floor((ms % 6e4) / 1e3);
+    return `${h}h ${String(m).padStart(2, "0")}min ${String(s).padStart(2, "0")}s`;
+  }
+
+  function cartao(e, minimo) {
+    const total = e.total || 0;
+    const fechada = e.fecha_em && new Date(e.fecha_em) <= Date.now();
+    let selo = "Votação aberta", classe = "votacao";
+    if (fechada || e.status === "encerrada") { selo = e.oficial ? "Encerrada" : "Encerrada por baixa participação"; classe = "encerrada"; }
+    if (!e.votos) { selo = "Apuração em andamento"; classe = ""; }
+    const barras = e.votos ? e.opcoes.map((o) => {
+      const v = e.votos[o.id] || 0, pct = total ? Math.round((100 * v) / total) : 0;
+      const mostra = e.oficial ? `${num(v)} · ${pct}%` : "";
+      return `<div class="barra"><div class="linha"><span>${esc(o.id)} · ${esc(o.rotulo)}</span><span>${mostra}</span></div>
+        <div class="trilho" role="img" aria-label="${esc(o.rotulo)}: ${e.oficial ? pct + "%" : "prévia"}">
+        <div class="enche" style="width:${e.oficial ? pct : 0}%;background:${esc(o.cor || "var(--destaque)")}"></div></div></div>`;
+    }).join("") : "";
+    let nota = "";
+    if (e.votos && !e.oficial) nota = `Prévia: ${num(total)} voto(s). O placar oficial aparece a partir de ${minimo} votos.`;
+    else if (e.votos) {
+      const redes = Object.entries(e.por_rede || {}).map(([r, c]) => `${REDE[r] || r} ${num(Object.values(c).reduce((a, b) => a + b, 0))}`);
+      nota = `${num(total)} votos · ${redes.join(" · ")}`;
+      if (e.vencedor && (fechada || e.status === "encerrada")) {
+        const v = e.opcoes.find((o) => o.id === e.vencedor);
+        nota += e.vencedor === "empate" ? " · Empate" : ` · Venceu: ${esc(v ? v.rotulo : e.vencedor)}`;
+      }
+    }
+    const resta = e.status === "votacao" && e.fecha_em && falta(e.fecha_em);
+    if (resta) nota += `${nota ? "<br>" : ""}O veredito sai em <span data-ate="${esc(e.fecha_em)}">${resta}</span>.`;
+    if (e.desatualizado) nota += `<br>Leitura atrasada em: ${Object.keys(e.desatualizado).map((r) => REDE[r] || r).join(", ")}.`;
+    const views = Object.values(e.metricas || {}).reduce((a, m) => a + (m.views || 0), 0);
+    if (views) nota += `<br>${num(views)} visualizações somando as redes.`;
+    const links = Object.entries(e.links || {}).filter(([r, u]) => REDE[r] && /^https:\/\//.test(u))
+      .map(([r, u]) => `<a href="${esc(u)}" rel="noopener" target="_blank">Ver e votar no ${REDE[r]}</a>`).join("");
+    return `<article class="ep"><div class="topo"><span class="serie">${esc(e.serie)} · Parte ${esc(e.parte)}</span>
+      <span class="selo ${classe}">${selo}</span></div>
+      <h2>${esc(e.titulo)}</h2><p class="pergunta">${esc(e.pergunta)}</p>${barras}
+      <p class="nota">${nota}</p><div class="redes">${links}</div></article>`;
+  }
+
+  async function carrega() {
+    try {
+      const r = await fetch(`placar.json?t=${Date.now()}`, { cache: "no-store" });
+      const p = await r.json();
+      const canal = p.canal || {};
+      if (canal.nome) { document.getElementById("titulo").textContent = `Placar · ${canal.nome}`; document.title = `Placar · ${canal.nome}`; }
+      if (canal.perfil) document.getElementById("sub").textContent = `Vocês decidem a próxima parte. ${canal.perfil}`;
+      const minimo = (p.regras || {}).minimo_votos || 10;
+      const eps = (p.episodios || []).slice().sort((a, b) => String(b.publicado).localeCompare(String(a.publicado)));
+      document.getElementById("lista").innerHTML = eps.length ? eps.map((e) => cartao(e, minimo)).join("")
+        : '<p class="vazio">Nenhuma votação no ar ainda.</p>';
+      document.getElementById("rodape").textContent =
+        `Atualizado em ${new Date(p.atualizado).toLocaleString("pt-BR")}. Contagem pelas APIs oficiais de cada rede. Ficção.`;
+    } catch (err) {
+      document.getElementById("lista").innerHTML = '<p class="vazio">O placar ainda não foi gerado.</p>';
+    }
+  }
+  carrega();
+  setInterval(carrega, 60000);
+  setInterval(() => document.querySelectorAll("[data-ate]").forEach((el) => { el.textContent = falta(el.dataset.ate) || "instantes"; }), 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+ "_sobre": "Modelo do estilo top5 (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "top5",
+ "titulo": "TROQUE: 5 coisas que...",
+ "capa": "TROQUE: título da capa",
+ "capa_rotulo": "TOP 5",
+ "parte": 1,
+ "proximo": "TROQUE: o assunto da parte 2",
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Charon"
+ },
+ "fontes": [
+  "TROQUE: fonte de cada fato"
+ ],
+ "post": {
+  "texto": "TROQUE: duas frases sobre o vídeo e uma pergunta aberta.",
+  "hashtags": [
+   "#curiosidades"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "TROQUE: a promessa em uma frase.",
+   "tela": "TROQUE: A PROMESSA",
+   "destaque": []
+  },
+  {
+   "tipo": "item",
+   "numero": 5,
+   "fala": "Número cinco. TROQUE.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "item",
+   "numero": 4,
+   "fala": "Número quatro. TROQUE.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "item",
+   "numero": 3,
+   "fala": "Número três. TROQUE.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "item",
+   "numero": 2,
+   "fala": "Número dois. TROQUE.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "item",
+   "numero": 1,
+   "fala": "E o número um. TROQUE.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "fim",
+   "fala": "Qual desses você não sabia?",
+   "tela": "QUAL DESSES VOCÊ NÃO SABIA?",
+   "destaque": [
+    "NÃO"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+  "nome": "Bicho Esquisito",
+  "arroba": "@bichoesquisito",
+  "site": "",
+  "slogan": "Os bichos mais estranhos do planeta, explicados sem enrolação.",
+  "chamada": "Curiosidades de bichos que parecem inventados",
+  "banner_linhas": ["BICHOS QUE PARECEM", "INVENTADOS. NÃO SÃO."],
+
+  "cores": {
+    "fundo": "#0F1424",
+    "painel": "#181E31",
+    "painel2": "#232B42",
+    "texto": "#EEF2FA",
+    "texto_suave": "#9AA4BA",
+    "destaque": "#C5EE4F",
+    "destaque2": "#F0443A",
+    "acento": "#4FB3FF",
+    "acento2": "#3D8EF0",
+    "opcao1": "#FF6B4A",
+    "opcao2": "#4FB3FF",
+    "ok": "#4CD38C",
+    "titulo_claro": "#DDEBFF",
+    "contorno": "#121626"
+  },
+
+  "paleta_doc": [
+    {"nome": "Lima", "hex": "#C5EE4F", "uso": "Ícone, nome no logo e etiqueta de destaque. Texto escuro em cima."},
+    {"nome": "Coral", "hex": "#FF6B4A", "uso": "Primeira opção do voto (etiqueta e barra do placar)."},
+    {"nome": "Céu", "hex": "#4FB3FF", "uso": "Segunda opção do voto; listras e cartão do banner."},
+    {"nome": "Azul", "hex": "#3D8EF0", "uso": "Cartão da série Bicho ou Lenda?"},
+    {"nome": "Tinta", "hex": "#0F1424", "uso": "Fundo de todas as peças; texto sobre a lima."},
+    {"nome": "Rosa Bubi", "hex": "#F59BB5", "uso": "Só no mascote. Nunca em texto."}
+  ],
+
+  "fontes": {
+    "titulo": "ArchivoBlack-Regular.ttf",
+    "mono": "Barlow-Bold.ttf",
+    "texto": "Inter-SemiBold.ttf",
+    "logo": "ArchivoBlack-Regular.ttf"
+  },
+
+  "tipografia_doc": [
+    {"papel": "titulo", "nome": "Archivo Black", "amostra": "BICHO OU LENDA?",
+     "uso": "Nome da série, título do post, opções do voto. Sempre em maiúsculas.", "licenca": "SIL OFL 1.1"},
+    {"papel": "mono", "nome": "Barlow Bold", "amostra": "A RESPOSTA SAI NA PARTE 2",
+     "uso": "Rótulos em versal, @, linha de apoio e contagem de votos.", "licenca": "SIL OFL 1.1"},
+    {"papel": "texto", "nome": "Inter SemiBold", "amostra": "Ele passa a vida com cara de filhote.",
+     "uso": "Texto corrido do post.", "licenca": "SIL OFL 1.1"}
+  ],
+
+  "logo": {
+    "ilustrado": null,
+    "linhas": ["BICHO", "ESQUISITO"],
+    "icone": "mascote/rosto.png",
+    "fundo_icone": "#C5EE4F"
+  },
+
+  "mascote": {
+    "nome": "Bubi",
+    "descricao": "Bubi é um axolote rosa no estilo cápsula do kit: corpo de feijão, três brânquias magenta de cada lado da cabeça, barriga clara, sorriso largo e rabo de nadadeira. Cor chapada, sombra dura e contorno no tom escuro da própria cor. Desenhado só por código (mascote/desenhar_mascote.py).",
+    "pose_padrao": "acenando",
+    "poses": {
+      "acenando": "mascote/acenando.png",
+      "surpreso": "mascote/surpreso.png",
+      "apontando": "mascote/apontando.png",
+      "lupa": "mascote/lupa.png",
+      "feliz": "mascote/feliz.png"
+    },
+    "usos": {
+      "acenando": "Boas-vindas, destaque Comece aqui, post de apresentação.",
+      "surpreso": "Capa de episódio com fato que parece mentira.",
+      "apontando": "Chamar para a parte nova, para o voto ou para o link.",
+      "lupa": "Investigação: série Bicho ou Lenda?, playlist.",
+      "feliz": "Resultado do voto, comemoração."
+    }
+  },
+
+  "banner_poses": ["acenando", "lupa"],
+  "modelos": {"pose_capa": "surpreso", "pose_post": "lupa", "pose_parte": "apontando", "pose_resultado": "feliz"},
+
+  "series": [
+    {"id": "bicho_ou_lenda", "nome": "Bicho ou Lenda?", "cor": "#3D8EF0", "pose": "lupa"},
+    {"id": "top_esquisitos", "nome": "Top 5 Esquisitos", "cor": "#FF6B4A", "pose": "surpreso"}
+  ],
+  "destaques_extra": [
+    {"id": "comece_aqui", "nome": "Comece aqui", "cor": "#C5EE4F", "pose": "acenando"},
+    {"id": "resultados", "nome": "Resultados", "cor": "#4FB3FF", "pose": "feliz"}
+  ],
+
+  "exemplo": {
+    "serie": "bicho_ou_lenda",
+    "titulo": "BICHO OU LENDA?",
+    "parte": 1,
+    "subtitulo": "O PEIXE QUE ANDA",
+    "pergunta": "BICHO OU LENDA?",
+    "linha": "A RESPOSTA SAI NA PARTE 2",
+    "post_titulo": "O PEIXE QUE NUNCA CRESCE",
+    "texto": "No México tem um bicho que anda no fundo do lago, sorri o tempo todo e passa a vida inteira com cara de filhote. Ele existe mesmo ou é invenção da internet?",
+    "parte_linha": "ASSISTA NO PERFIL",
+    "resultado_pergunta": "BICHO OU LENDA?",
+    "opcoes": [["BICHO", 71], ["LENDA", 29]],
+    "votos": 312,
+    "playlist_kicker": "SÉRIE · TEMPORADA 1",
+    "playlist_linha": "VOCÊ ADIVINHA, A GENTE CONTA"
+  },
+
+  "voz": [
+    "Português do Brasil, frases curtas, tom de amigo contando uma coisa absurda que acabou de descobrir.",
+    "O riso vem do bicho, nunca de zombar de gente: comparação com o dia a dia (do tamanho de uma tampinha, mais lento que fila de banco).",
+    "Todo fato tem fonte e é conferido antes de gravar; quando a ciência ainda não sabe, o canal diz que não sabe.",
+    "Toda peça termina numa pergunta aberta: o que você acha que acontece, bicho ou lenda.",
+    "Quem discorda é bem-vindo: o canal responde com a fonte, sem ironia."
+  ],
+  "fazer": [
+    "Usar a lima só no que precisa ser lido primeiro (nome no logo, etiqueta de destaque).",
+    "Manter o nome da série, a parte e as opções do voto dentro da área 3:4 da capa.",
+    "Bubi em todas as peças, sempre de corpo inteiro ou de busto, nunca cortado no meio do rosto."
+  ],
+  "nao_fazer": [
+    "Esticar, girar ou recolorir o logo e o Bubi.",
+    "Foto real de bicho machucado, nojento ou em sofrimento.",
+    "Prometer fato que não foi conferido."
+  ]
+}

@@ -1,0 +1,254 @@
+[
+ {
+  "bloco": 0,
+  "palavra": "A",
+  "ini": 0.0,
+  "fim": 0.28
+ },
+ {
+  "bloco": 0,
+  "palavra": "luz",
+  "ini": 0.28,
+  "fim": 0.42
+ },
+ {
+  "bloco": 0,
+  "palavra": "da",
+  "ini": 0.42,
+  "fim": 0.58
+ },
+ {
+  "bloco": 0,
+  "palavra": "casa",
+  "ini": 0.58,
+  "fim": 0.8
+ },
+ {
+  "bloco": 0,
+  "palavra": "sete",
+  "ini": 0.8,
+  "fim": 0.99
+ },
+ {
+  "bloco": 0,
+  "palavra": "acendeu",
+  "ini": 1.18,
+  "fim": 1.62
+ },
+ {
+  "bloco": 0,
+  "palavra": "sozinha.",
+  "ini": 1.62,
+  "fim": 2.22
+ },
+ {
+  "bloco": 0,
+  "palavra": "De",
+  "ini": 2.34,
+  "fim": 2.44
+ },
+ {
+  "bloco": 0,
+  "palavra": "novo.",
+  "ini": 2.44,
+  "fim": 2.76
+ },
+ {
+  "bloco": 1,
+  "palavra": "Ninguém",
+  "ini": 3.6,
+  "fim": 3.92
+ },
+ {
+  "bloco": 1,
+  "palavra": "mora",
+  "ini": 3.92,
+  "fim": 4.36
+ },
+ {
+  "bloco": 1,
+  "palavra": "lá",
+  "ini": 4.36,
+  "fim": 4.52
+ },
+ {
+  "bloco": 1,
+  "palavra": "faz",
+  "ini": 4.52,
+  "fim": 4.76
+ },
+ {
+  "bloco": 1,
+  "palavra": "dez",
+  "ini": 4.76,
+  "fim": 4.91
+ },
+ {
+  "bloco": 1,
+  "palavra": "anos.",
+  "ini": 5.06,
+  "fim": 5.38
+ },
+ {
+  "bloco": 1,
+  "palavra": "E",
+  "ini": 5.38,
+  "fim": 5.8
+ },
+ {
+  "bloco": 1,
+  "palavra": "é",
+  "ini": 5.8,
+  "fim": 5.9
+ },
+ {
+  "bloco": 1,
+  "palavra": "sempre",
+  "ini": 5.9,
+  "fim": 6.2
+ },
+ {
+  "bloco": 1,
+  "palavra": "às",
+  "ini": 6.2,
+  "fim": 6.4
+ },
+ {
+  "bloco": 1,
+  "palavra": "duas",
+  "ini": 6.4,
+  "fim": 6.5
+ },
+ {
+  "bloco": 1,
+  "palavra": "e",
+  "ini": 6.6,
+  "fim": 6.8
+ },
+ {
+  "bloco": 1,
+  "palavra": "quarenta.",
+  "ini": 6.8,
+  "fim": 7.43
+ },
+ {
+  "bloco": 2,
+  "palavra": "Hoje,",
+  "ini": 8.06,
+  "fim": 8.38
+ },
+ {
+  "bloco": 2,
+  "palavra": "a",
+  "ini": 8.56,
+  "fim": 8.58
+ },
+ {
+  "bloco": 2,
+  "palavra": "Lola",
+  "ini": 8.58,
+  "fim": 8.76
+ },
+ {
+  "bloco": 2,
+  "palavra": "viu",
+  "ini": 8.76,
+  "fim": 8.98
+ },
+ {
+  "bloco": 2,
+  "palavra": "alguém",
+  "ini": 8.98,
+  "fim": 9.3
+ },
+ {
+  "bloco": 2,
+  "palavra": "na",
+  "ini": 9.3,
+  "fim": 9.44
+ },
+ {
+  "bloco": 2,
+  "palavra": "janela.",
+  "ini": 9.44,
+  "fim": 9.96
+ },
+ {
+  "bloco": 2,
+  "palavra": "E",
+  "ini": 9.96,
+  "fim": 10.3
+ },
+ {
+  "bloco": 2,
+  "palavra": "esse",
+  "ini": 10.3,
+  "fim": 10.38
+ },
+ {
+  "bloco": 2,
+  "palavra": "alguém",
+  "ini": 10.46,
+  "fim": 10.76
+ },
+ {
+  "bloco": 2,
+  "palavra": "acenou",
+  "ini": 10.76,
+  "fim": 10.967
+ },
+ {
+  "bloco": 2,
+  "palavra": "pra",
+  "ini": 10.967,
+  "fim": 11.173
+ },
+ {
+  "bloco": 2,
+  "palavra": "ela.",
+  "ini": 11.38,
+  "fim": 11.68
+ },
+ {
+  "bloco": 3,
+  "palavra": "E",
+  "ini": 12.48,
+  "fim": 12.64
+ },
+ {
+  "bloco": 3,
+  "palavra": "agora?",
+  "ini": 12.64,
+  "fim": 12.94
+ },
+ {
+  "bloco": 3,
+  "palavra": "O",
+  "ini": 13.18,
+  "fim": 13.24
+ },
+ {
+  "bloco": 3,
+  "palavra": "que",
+  "ini": 13.24,
+  "fim": 13.34
+ },
+ {
+  "bloco": 3,
+  "palavra": "a",
+  "ini": 13.34,
+  "fim": 13.46
+ },
+ {
+  "bloco": 3,
+  "palavra": "Lola",
+  "ini": 13.46,
+  "fim": 13.64
+ },
+ {
+  "bloco": 3,
+  "palavra": "faz?",
+  "ini": 13.64,
+  "fim": 13.92
+ }
+]

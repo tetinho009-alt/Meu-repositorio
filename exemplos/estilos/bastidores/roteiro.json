@@ -1,0 +1,58 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo bastidores, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/bastidores",
+  "estilo": "bastidores",
+  "amostra": true,
+  "nome": "exemplo_bastidores",
+  "titulo": "Esse vídeo saiu de graça",
+  "capa": "Esse vídeo saiu de graça",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pf_dora"
+  },
+  "apresentador": {
+    "personagem": "lola",
+    "lado": "e"
+  },
+  "capa_destaque": [
+    "GRÁTIS"
+  ],
+  "capa_rotulo": "BASTIDORES",
+  "blocos": [
+    {
+      "tipo": "gancho",
+      "fala": "Esse vídeo saiu de graça. Olha como.",
+      "tela": "ESSE VÍDEO SAIU DE GRAÇA",
+      "destaque": [
+        "GRAÇA"
+      ]
+    },
+    {
+      "tipo": "imagem",
+      "fala": "Um roteiro de poucas linhas.",
+      "imagem": "roteiro.jpg",
+      "rotulo": "PASSO 1",
+      "tela": "O ROTEIRO",
+      "destaque": [
+        "ROTEIRO"
+      ]
+    },
+    {
+      "tipo": "imagem",
+      "fala": "O estúdio desenha cada cena.",
+      "imagem": "quadros.jpg",
+      "rotulo": "PASSO 2",
+      "tela": "AS CENAS",
+      "destaque": [
+        "CENAS"
+      ]
+    },
+    {
+      "tipo": "fim",
+      "fala": "E a voz também é grátis.",
+      "tela": "A VOZ É GRÁTIS",
+      "destaque": [
+        "GRÁTIS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_leia": "Exemplo fictício para testar o placar sem chave e sem rede. Copie para placar/episodios.json e troque pelos seus episódios. As palavras de cada opção são as mesmas do respostas.json do robô.",
+  "canal": {
+    "nome": "Seu Canal",
+    "perfil": "@seu_perfil",
+    "site": "https://seu-usuario.github.io",
+    "perfis": {
+      "instagram": "https://www.instagram.com/seu_perfil/",
+      "youtube": "https://www.youtube.com/@seu_perfil",
+      "tiktok": "https://www.tiktok.com/@seu_perfil"
+    }
+  },
+  "regras": { "minimo_votos": 10, "janela_horas": 48 },
+  "episodios": [
+    {
+      "slug": "a-luz-da-casa-7-p1",
+      "serie": "A Luz da Casa 7",
+      "parte": 1,
+      "titulo": "Alguém acenou",
+      "pergunta": "O que a Lola faz?",
+      "publicado": "2026-11-01T22:00:00-03:00",
+      "opcoes": [
+        { "id": "1", "rotulo": "Entrar", "cor": "#FF6B4A", "palavras": ["ENTRAR", "ENTRA", "ENTRO"] },
+        { "id": "2", "rotulo": "Fugir", "cor": "#4FB3FF", "palavras": ["FUGIR", "FOGE", "CORRE", "CORRER"] }
+      ],
+      "nega": { "1": "2", "2": "1" },
+      "links": {
+        "instagram": "https://www.instagram.com/reel/EXEMPLO123/",
+        "youtube": "https://youtube.com/shorts/EXEMPLO0001",
+        "tiktok": "https://www.tiktok.com/@seu_perfil/video/7400000000000000001"
+      },
+      "tiktok_comentarios": "tiktok_a-luz-da-casa-7-p1.txt"
+    },
+    {
+      "slug": "a-luz-da-casa-7-p2",
+      "serie": "A Luz da Casa 7",
+      "parte": 2,
+      "titulo": "A porta abriu sozinha",
+      "pergunta": "A Lola sobe ou desce?",
+      "publicado": "2026-11-03T22:00:00-03:00",
+      "opcoes": [
+        { "id": "1", "rotulo": "Subir", "cor": "#FF6B4A", "palavras": ["SUBIR", "SOBE", "SUBO"] },
+        { "id": "2", "rotulo": "Descer", "cor": "#4FB3FF", "palavras": ["DESCER", "DESCE", "PORAO"] }
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/reel/EXEMPLO456/"
+      }
+    }
+  ]
+}

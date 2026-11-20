@@ -1,0 +1,164 @@
+[
+ {
+  "bloco": 0,
+  "palavra": "Isso",
+  "ini": 0.0,
+  "fim": 0.46
+ },
+ {
+  "bloco": 0,
+  "palavra": "não",
+  "ini": 0.46,
+  "fim": 0.72
+ },
+ {
+  "bloco": 0,
+  "palavra": "é",
+  "ini": 0.72,
+  "fim": 0.92
+ },
+ {
+  "bloco": 0,
+  "palavra": "uma",
+  "ini": 0.92,
+  "fim": 1.06
+ },
+ {
+  "bloco": 0,
+  "palavra": "água-viva.",
+  "ini": 1.06,
+  "fim": 1.8
+ },
+ {
+  "bloco": 1,
+  "palavra": "A",
+  "ini": 2.54,
+  "fim": 2.68
+ },
+ {
+  "bloco": 1,
+  "palavra": "caravela-portuguesa",
+  "ini": 2.68,
+  "fim": 3.3
+ },
+ {
+  "bloco": 1,
+  "palavra": "é",
+  "ini": 3.92,
+  "fim": 4.14
+ },
+ {
+  "bloco": 1,
+  "palavra": "um",
+  "ini": 4.14,
+  "fim": 4.22
+ },
+ {
+  "bloco": 1,
+  "palavra": "condomínio",
+  "ini": 4.22,
+  "fim": 4.8
+ },
+ {
+  "bloco": 1,
+  "palavra": "de",
+  "ini": 4.8,
+  "fim": 4.92
+ },
+ {
+  "bloco": 1,
+  "palavra": "bichinhos",
+  "ini": 4.92,
+  "fim": 5.34
+ },
+ {
+  "bloco": 1,
+  "palavra": "grudados.",
+  "ini": 5.34,
+  "fim": 5.96
+ },
+ {
+  "bloco": 2,
+  "palavra": "Um",
+  "ini": 6.82,
+  "fim": 7.0
+ },
+ {
+  "bloco": 2,
+  "palavra": "boia,",
+  "ini": 7.0,
+  "fim": 7.32
+ },
+ {
+  "bloco": 2,
+  "palavra": "um",
+  "ini": 7.42,
+  "fim": 7.42
+ },
+ {
+  "bloco": 2,
+  "palavra": "caça,",
+  "ini": 7.42,
+  "fim": 7.8
+ },
+ {
+  "bloco": 2,
+  "palavra": "um",
+  "ini": 7.9,
+  "fim": 7.94
+ },
+ {
+  "bloco": 2,
+  "palavra": "come...",
+  "ini": 7.94,
+  "fim": 8.26
+ },
+ {
+  "bloco": 2,
+  "palavra": "e",
+  "ini": 8.26,
+  "fim": 8.54
+ },
+ {
+  "bloco": 2,
+  "palavra": "um",
+  "ini": 8.54,
+  "fim": 8.64
+ },
+ {
+  "bloco": 2,
+  "palavra": "namora.",
+  "ini": 8.64,
+  "fim": 9.0
+ },
+ {
+  "bloco": 3,
+  "palavra": "E",
+  "ini": 9.76,
+  "fim": 9.94
+ },
+ {
+  "bloco": 3,
+  "palavra": "sozinho,",
+  "ini": 9.94,
+  "fim": 10.38
+ },
+ {
+  "bloco": 3,
+  "palavra": "nenhum",
+  "ini": 10.58,
+  "fim": 10.84
+ },
+ {
+  "bloco": 3,
+  "palavra": "deles",
+  "ini": 10.84,
+  "fim": 11.08
+ },
+ {
+  "bloco": 3,
+  "palavra": "sobrevive.",
+  "ini": 11.08,
+  "fim": 11.78
+ }
+]

@@ -1,0 +1,8 @@
+[
+  { "saida": "falas/01_narrador.mp3", "personagem": "narrador", "provedor": "kokoro", "voz": "pm_alex",
+    "texto": "A luz da casa sete acendeu sozinha. De novo." },
+  { "saida": "falas/02_lola.mp3", "personagem": "lola", "provedor": "kokoro", "voz": "pf_dora",
+    "texto": "Tem alguém lá dentro. Tá acenando pra mim." },
+  { "saida": "falas/03_narrador.mp3", "personagem": "narrador", "provedor": "kokoro", "voz": "pm_alex",
+    "texto": "E agora? O que a Lola faz?" }
+]

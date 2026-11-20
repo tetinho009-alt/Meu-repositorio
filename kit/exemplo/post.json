@@ -1,0 +1,19 @@
+{
+  "instagram": {
+    "texto": "A Luz da Casa 7 · Parte 1 · \"Alguém acenou\" 🌑\n\nA luz da casa 7 acendeu sozinha de novo, às duas e quarenta. Ninguém mora lá faz dez anos.\n\nHoje a Lola viu alguém na janela. E esse alguém acenou pra ela.\n\nE agora: a Lola entra na casa ou foge pra casa dela?\nO que vocês escolherem vira a Parte 2.\n\n🎧 Assiste de fone.\nFicção · personagens e lugar inventados. Narração com voz sintética.",
+    "hashtags": ["#terror", "#historiadeterror", "#suspense", "#animacao", "#misterio"],
+    "rotulo_ia": true
+  },
+  "tiktok": {
+    "texto": "A luz da casa 7 acendeu sozinha. E alguém acenou da janela pra Lola. 🌑 Ela entra ou foge? O que vocês escolherem vira a Parte 2. Ficção · personagens inventados. 🎧",
+    "hashtags": ["#terror", "#historiadeterror", "#suspense", "#animacao"],
+    "comentario_fixado": "A Parte 2 sai amanhã, às 21h. Entrar ou fugir: o que a maioria escolher acontece.",
+    "rotulo_ia": true
+  },
+  "youtube": {
+    "titulo": "A Luz da Casa 7 · Parte 1 · Alguém acenou da janela",
+    "descricao": "A luz da casa 7 acendeu sozinha de novo. Ninguém mora lá faz dez anos. Hoje, alguém acenou da janela pra Lola.\n\nE agora: entrar ou fugir? O que vocês escolherem vira a Parte 2.\n\nFicção · personagens e lugar inventados. Narração com voz sintética.",
+    "hashtags": ["#terror", "#suspense", "#animacao"],
+    "sintetico": false
+  }
+}

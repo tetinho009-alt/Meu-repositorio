@@ -1,0 +1,8 @@
+# Núcleo do kit (render, som, capa, publicação). Testado com Python 3.12.
+# pip install -r requirements.txt
+skia-python==144.1      # desenho 2D/3D projetado (GPU ou CPU); BSD-3
+glfw>=2.7               # contexto OpenGL oculto para render na GPU; sem tela/GPU o kit cai para CPU sozinho
+numpy>=1.26
+scipy>=1.11
+Pillow>=10.0
+requests>=2.31

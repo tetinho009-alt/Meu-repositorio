@@ -1,0 +1,38 @@
+{
+ "_sobre": "Modelo do estilo antes-depois (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "antes-depois",
+ "titulo": "TROQUE: dá pra salvar isso?",
+ "capa": "TROQUE: título da capa",
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Puck"
+ },
+ "post": {
+  "texto": "TROQUE: o que foi feito. Qual eu faço amanhã?",
+  "hashtags": [
+   "#antesedepois"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "Dá pra salvar isso?",
+   "tela": "DÁ PRA SALVAR ISSO?",
+   "destaque": [
+    "SALVAR"
+   ]
+  },
+  {
+   "tipo": "antes_depois",
+   "antes": "img/antes.jpg",
+   "depois": "img/depois.jpg",
+   "fala": "TROQUE: o que foi feito, em duas frases curtas. Olha como ficou.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "fim",
+   "fala": "TROQUE: qual eu faço amanhã?",
+   "tela": "TROQUE"
+  }
+ ]
+}

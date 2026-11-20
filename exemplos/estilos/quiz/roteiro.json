@@ -1,0 +1,56 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo quiz, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/quiz",
+  "estilo": "quiz",
+  "amostra": true,
+  "nome": "exemplo_quiz",
+  "titulo": "Só 1 em cada 10 acerta essa",
+  "capa": "Só 1 em cada 10 acerta essa",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pf_dora"
+  },
+  "apresentador": {
+    "personagem": "lola",
+    "lado": "e"
+  },
+  "capa_destaque": [
+    "ACERTA"
+  ],
+  "capa_rotulo": "QUIZ",
+  "fontes": [
+    "NASA, Júpiter em números"
+  ],
+  "blocos": [
+    {
+      "tipo": "gancho",
+      "fala": "Só um em cada dez acerta essa.",
+      "tela": "SÓ 1 EM CADA 10 ACERTA ESSA",
+      "destaque": [
+        "ACERTA"
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "fala": "Qual é o maior planeta do sistema solar?",
+      "tela": "QUAL É O MAIOR PLANETA DO SISTEMA SOLAR?",
+      "destaque": [
+        "MAIOR"
+      ],
+      "opcoes": [
+        "Saturno",
+        "Júpiter",
+        "Netuno"
+      ],
+      "certa": 1,
+      "contagem": 2
+    },
+    {
+      "tipo": "revela",
+      "fala": "Júpiter. Cabem mais de mil Terras nele.",
+      "tela": "JÚPITER",
+      "destaque": [
+        "JÚPITER"
+      ]
+    }
+  ]
+}

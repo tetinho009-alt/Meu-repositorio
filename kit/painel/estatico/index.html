@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="painel-token" content="{{TOKEN}}">
+<meta name="painel-icone" content="{{ICONE}}">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#08262F">
+<link rel="icon" href="/static/favicon-48.png" type="image/png" sizes="48x48">
+<link rel="icon" href="/static/icone-256.png" type="image/png" sizes="256x256">
+<link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+<title>Painel · Temporada Viral</title>
+<link rel="preload" href="/static/fontes/LuckiestGuy-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fontes/Nunito-variavel-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/vendor/driver.css">
+<link rel="stylesheet" href="/static/painel.css">
+<script src="/static/carregando.js"></script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<!-- Carregando: o mascote animado (WebP com fundo transparente; reserva .apng; parado se faltar ou com movimento
+     reduzido) enquanto os dados chegam. Aparece só depois de 400 ms; a frase
+     curta troca a cada 2 s e os avisos mudam aos 8 s e aos 30 s, tudo só com CSS (funciona mesmo sem o painel.js). -->
+<div class="abertura" id="abertura" role="status" aria-live="polite">
+  <div class="carregando">
+    <div class="palco" aria-hidden="true">
+      <span class="raios"></span>
+      <span class="chao"></span>
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="/static/ilustracoes/carregando.webp">
+        <img class="masc-anim" src="/static/ilustracoes/carregando-anim.webp" alt="" width="240" height="240" decoding="async">
+      </picture>
+    </div>
+    <h1 class="titulo frases"><span class="so-leitor">Abrindo seus vídeos</span><span class="frase" aria-hidden="true">Ligando o estúdio…</span><span class="frase" aria-hidden="true">Arrumando os vídeos…</span><span class="frase" aria-hidden="true">Quase lá…</span></h1>
+    <p class="lead fase fase-1">Leva uns segundos.</p>
+    <p class="lead fase fase-2">Ainda abrindo. Na primeira vez pode levar até 1 minuto.</p>
+    <div class="fase fase-3"><p class="lead">Está demorando mais que o normal.</p><a class="botao secundario" href="">Tentar de novo</a></div>
+    <div class="fase fase-erro"><h2 class="titulo menor">Não deu pra falar com o kit</h2>
+      <p class="lead">Feche esta aba e abra o painel de novo pelo ícone Temporada Viral.</p>
+      <a class="botao" href="">Tentar de novo</a></div>
+  </div>
+</div>
+<div class="casca">
+  <header class="topo" id="topo"></header>
+  <aside class="lateral" id="lateral" aria-label="Todas as telas" hidden></aside>
+  <main class="miolo" id="conteudo" tabindex="-1"></main>
+  <footer class="rodape-autoria" data-autoria="TVK-2026-AF-CC02968C">© 2026 Temporada Viral. Uso pessoal do comprador; redistribuição proibida. <a href="https://temporadaviral.com/termos.html" target="_blank" rel="noopener noreferrer">Termos</a> · TVK-2026-AF-CC02968C</footer>
+</div>
+<nav class="barra" id="barra" aria-label="Atalhos"></nav>
+<dialog class="gaveta" id="gaveta" aria-labelledby="gaveta-titulo"></dialog>
+<div class="aviso-ia" id="aviso-ia" role="status" hidden>
+  <span>A IA mudou alguma coisa.</span>
+  <button type="button" class="botao secundario" id="aviso-ia-botao"><span class="rotulo">Atualizar a tela</span></button>
+</div>
+<div class="avisos" id="toasts" role="status" aria-live="polite"></div>
+<dialog class="janela" id="janela" aria-labelledby="janela-titulo">
+  <div class="janela-topo">
+    <h2 id="janela-titulo" class="bloco-titulo"></h2>
+    <button type="button" class="fechar" id="janela-fechar" aria-label="Fechar"></button>
+  </div>
+  <div class="janela-corpo" id="janela-corpo"></div>
+  <div class="janela-pe" id="janela-pe" hidden></div>
+</dialog>
+<script src="/static/vendor/driver.js.iife.js"></script>
+<script src="/static/tours.js"></script>
+<script src="/static/painel.js"></script>
+</body>
+</html>

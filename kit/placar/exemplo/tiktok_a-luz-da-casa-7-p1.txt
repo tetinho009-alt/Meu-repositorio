@@ -1,0 +1,6 @@
+@leitor_t1: fugir!!!
+@leitor_t2: 1
+@leitor_t1: entra
+leitor_t3	CORRE LOLA
+eu entraria sim
+@leitor_t4: parte 2 logo por favor

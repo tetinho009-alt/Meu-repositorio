@@ -1,0 +1,300 @@
+{
+ "serie-2d-voto": [
+  {
+   "gancho": "[A promessa] contra [a realidade], lado a lado, numa frase curta. A mesma abertura em todo episódio.",
+   "por_que": "Quem nunca viu entende a premissa inteira em 2 s, só de olhar as duas imagens. Repetida, a abertura vira marca e quem segue reconhece no primeiro quadro.",
+   "de_onde": "caso real: série de comédia com voto (Cobaia Social, out-nov/2026), a mesma abertura com as duas imagens lado a lado em todos os episódios",
+   "variacoes": [
+    "O anúncio prometia isso. Chegou isso.",
+    "No currículo, esse. No primeiro dia, esse.",
+    "O cardápio mostrava esse. Veio esse."
+   ]
+  },
+  {
+   "gancho": "Um evento HOJE, com hora marcada e alguém de testemunha, e o personagem longe de estar pronto.",
+   "por_que": "Prazo curto e testemunha criam a pergunta 'vai dar tempo?' sem precisar explicar nada. É o que fez o episódio mais visto do caso real.",
+   "de_onde": "caso real: Cobaia Social, temporada 2, ep. 1 (04/11/2026), o vídeo mais visto do perfil: encontro com o sogro em 6 horas",
+   "variacoes": [
+    "A sogra chega em duas horas.",
+    "Entrevista às nove. Acordou às nove.",
+    "Casamento sábado. O terno não fecha."
+   ]
+  },
+  {
+   "gancho": "A imagem mais nojenta ou absurda no quadro 0, com o número do problema na tela.",
+   "por_que": "Nojo e absurdo seguram o dedo antes de qualquer frase. O número ('3% parecido') vira placar que a pessoa quer ver subir.",
+   "de_onde": "caso real: Cobaia Social, Dia 1 (31/10/2026): 75% saiu em cerca de 10 s porque os 10 s iniciais eram só explicação; a partir daí, o nojento ou o antes e depois abre o episódio, nos 3 a 5 s",
+   "variacoes": [
+    "Essa geladeira não abre faz três semanas.",
+    "Esse tênis nunca foi lavado. Dez anos.",
+    "Três por cento parecido. E é hoje."
+   ]
+  }
+ ],
+ "terror-voto": [
+  {
+   "gancho": "[Hora exata]. [A ameaça já acontecendo]. [A contradição], tudo até 3 s.",
+   "por_que": "A hora exata dá realidade, a ameaça em curso dá urgência e a contradição abre a pergunta que só o vídeo responde.",
+   "de_onde": "caso real: canal de terror com voto (out-nov/2026), padrão de abertura dos episódios",
+   "variacoes": [
+    "Meia-noite. O elevador desceu. Ninguém chamou.",
+    "Três e dezessete. Campainha. Prédio vazio.",
+    "Duas e dez, mensagem da mãe morta."
+   ]
+  },
+  {
+   "gancho": "Uma regra simples do lugar, quebrada no primeiro segundo.",
+   "por_que": "A regra explica o mundo em meia frase; vê-la quebrada já é o medo, sem sangue e sem susto de volume.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Ninguém para nessa estrada. O carro parou.",
+    "Regra do sítio: nunca abrir o poço."
+   ]
+  },
+  {
+   "gancho": "Uma mensagem que não podia existir, mostrada na tela do celular.",
+   "por_que": "A tela do celular se lê sem som e todo mundo já recebeu mensagem estranha: identificação e medo ao mesmo tempo.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Sumiu faz um ano. Curtiu agora.",
+    "Quatro da manhã. A babá eletrônica falou."
+   ]
+  }
+ ],
+ "pov": [
+  {
+   "gancho": "Você [num lugar comum], e [algo que não devia acontecer] acontece com você.",
+   "por_que": "Em 'você', a pessoa vira a protagonista no primeiro segundo. Lugar comum mais um detalhe errado é o atalho mais curto para a lacuna.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Você mora sozinho. Tem foto sua dormindo.",
+    "Você nunca disse seu nome. Ele sabe.",
+    "A cama está arrumada. Você não arrumou."
+   ]
+  },
+  {
+   "gancho": "Um número que muda tudo, falado direto para você.",
+   "por_que": "Número dá concretude e cria a pergunta 'por quê?' antes de qualquer contexto.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Sete minutos. A porta não abre.",
+    "Faltam dois dias. Todos já se despediram."
+   ]
+  }
+ ],
+ "explicativo-3d": [
+  {
+   "gancho": "A pergunta do dia a dia que todo mundo já fez, com o objeto já aparecendo em corte.",
+   "por_que": "A pessoa já tem a dúvida; o objeto aberto promete a resposta na imagem.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Por que a descarga não volta?",
+    "Como o micro-ondas não esquenta o prato?",
+    "O que tem dentro do isqueiro?"
+   ]
+  },
+  {
+   "gancho": "A resposta errada que todo mundo dá, desmentida no primeiro segundo.",
+   "por_que": "Contradizer uma certeza é a lacuna mais forte: a pessoa fica para ver se estava errada.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "A geladeira não faz frio.",
+    "Avião não é leve. Pesa quatrocentas toneladas."
+   ]
+  }
+ ],
+ "novela-anime": [
+  {
+   "gancho": "O momento mais quente do episódio, congelado um segundo antes de acontecer.",
+   "por_que": "Quase-beijo, tapa ou grito puxa a pergunta 'acontece ou não?'. Abrir pelo fim da cena e voltar segura até o meio.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Quase beijou. Até a porta abrir.",
+    "O tapa não chegou. O irmão segurou."
+   ]
+  },
+  {
+   "gancho": "Um segredo dito em uma frase, com a pessoa errada ouvindo.",
+   "por_que": "Segredo mais testemunha errada cria o conflito inteiro em 3 s.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Nunca amou o noivo. Ele ouviu.",
+    "Ninguém sabia que eram irmãos. Nem eles."
+   ]
+  }
+ ],
+ "novela-frutas": [
+  {
+   "gancho": "A primeira fala já é a acusação, com a prova na mão.",
+   "por_que": "Celular, teste de gravidez ou foto na mão de quem acusa: o conflito inteiro cabe no primeiro segundo e ninguém precisa de apresentação.",
+   "de_onde": "novelinhas de frutas virais (Instagram e TikTok, 2026)",
+   "variacoes": [
+    "Amor, quem é Melância?",
+    "Esse teste é seu ou da vizinha?"
+   ]
+  },
+  {
+   "gancho": "O bebê nasce com a cara de outra fruta.",
+   "por_que": "A traição revelada sem uma palavra, só na imagem: é a virada que mais aparece nas novelinhas que viralizam.",
+   "de_onde": "novelinhas de frutas virais (Instagram e TikTok, 2026)",
+   "variacoes": [
+    "Doutor, por que ele é verde?",
+    "Parabéns, é um abacatinho."
+   ]
+  },
+  {
+   "gancho": "Alguém espia pela fresta da porta e vê o que não devia.",
+   "por_que": "A testemunha errada dá o gancho do próximo episódio e a pergunta do voto.",
+   "de_onde": "novelinhas de frutas virais (Instagram e TikTok, 2026)",
+   "variacoes": [
+    "A Maçã viu tudo pela porta.",
+    "O Limão estava na janela o tempo todo."
+   ]
+  }
+ ],
+ "tipografia": [
+  {
+   "gancho": "A frase que derruba uma crença, já em movimento, com a palavra-chave em destaque.",
+   "por_que": "No estilo sem imagem, o choque tem que estar no texto: negar o que a pessoa acredita abre a lacuna na primeira palavra.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Dormir oito horas não é o segredo.",
+    "Você não esquece. Você nunca prestou atenção."
+   ]
+  },
+  {
+   "gancho": "Um número exato e estranho, seguido do detalhe que ninguém percebe.",
+   "por_que": "Número exato soa como fato; o detalhe escondido é a lacuna.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Vinte mil piscadas por dia. Nenhuma vista.",
+    "Noventa por cento lê isso errado."
+   ]
+  }
+ ],
+ "faceless": [
+  {
+   "gancho": "A imagem mais estranha do tema e uma frase que promete explicar.",
+   "por_que": "Sem rosto, a imagem faz o papel do apresentador: ela precisa ser a mais estranha do vídeo e vir primeiro.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Essa cidade não tem nenhuma rua.",
+    "Esse lago muda de cor. Ninguém sabe.",
+    "Essa ponte não tem nenhum prego."
+   ]
+  },
+  {
+   "gancho": "Uma pergunta que a pessoa nunca pensou, mas quer a resposta agora.",
+   "por_que": "Pergunta inesperada sobre algo do dia a dia: curiosidade imediata e sem esforço.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Por que todo avião é branco?",
+    "Para onde vai o lixo do avião?"
+   ]
+  }
+ ],
+ "top5": [
+  {
+   "gancho": "A promessa da lista com a palavra que dá curiosidade em destaque ('nunca', 'ninguém').",
+   "por_que": "A pessoa fica para conferir se sabia; a lista promete um item novo a cada poucos segundos.",
+   "de_onde": "padrão do método (exemplo do kit: cartelas/exemplo)",
+   "variacoes": [
+    "Seu corpo faz isso. Você nunca reparou.",
+    "Cinco coisas que ninguém lava na cozinha.",
+    "Três hábitos bons que não são."
+   ]
+  },
+  {
+   "gancho": "Comece pelo item mais estranho da lista, e diga que tem um pior.",
+   "por_que": "Entrega uma surpresa no primeiro segundo e promete outra maior: a curva não cai na contagem.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Esse peixe anda. Nem é o pior.",
+    "Esse prédio balança dois metros."
+   ]
+  }
+ ],
+ "historia-real": [
+  {
+   "gancho": "O momento mais estranho do caso, sem explicar; a data e o número vêm no bloco seguinte.",
+   "por_que": "O estranho sem explicação segura até a revelação; a data logo depois diz 'aconteceu de verdade'.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Pulou do avião com o resgate. Sumiu.",
+    "Mesa posta. Ninguém a bordo."
+   ]
+  },
+  {
+   "gancho": "O fim da história primeiro, e a contradição que ninguém sabia.",
+   "por_que": "Mostrar o fim tira a dúvida errada e cria a certa: como chegou ali.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Ganhou duas vezes na loteria. Mentira.",
+    "O prédio caiu. Ninguém estava dentro."
+   ]
+  }
+ ],
+ "antes-depois": [
+  {
+   "gancho": "O 'antes' mais feio no quadro 0, com a pergunta 'dá pra salvar isso?'.",
+   "por_que": "O feio prende o olho e a pergunta cria a aposta. A transformação tem que começar entre 3 e 5 s, não no fim.",
+   "de_onde": "caso real: Cobaia Social, Dia 1 (31/10/2026): sem a transformação nos primeiros segundos, 75% saiu em cerca de 10 s",
+   "variacoes": [
+    "Dá pra salvar isso?",
+    "Esse sofá estava assim. Olha agora.",
+    "Dez anos sem limpar esse forno."
+   ]
+  },
+  {
+   "gancho": "O número do esforço: quanto tempo ou quanto custou a transformação.",
+   "por_que": "O número dá escala ao resultado e faz a pessoa ficar para ver se valeu.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Três horas e um balde. Olha isso.",
+    "Doze reais de tinta. Esse quarto."
+   ]
+  }
+ ],
+ "bastidores": [
+  {
+   "gancho": "Abertura fria: o resultado já na tela, sem título, e a frase que conta o atalho.",
+   "por_que": "O resultado prova o valor antes de pedir atenção; o atalho é a lacuna ('como?').",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Esse vídeo saiu de dez linhas.",
+    "Sem câmera, sem editar, sem aparecer.",
+    "Esse personagem não existe. E fala."
+   ]
+  },
+  {
+   "gancho": "O erro que custou caro, mostrado antes do acerto.",
+   "por_que": "Erro real com número gera identificação e confiança; a pessoa fica para não errar igual.",
+   "de_onde": "caso real: Cobaia Social, Dia 1 (31/10/2026): 75% saiu nos 10 s iniciais, e o erro virou regra do método",
+   "variacoes": [
+    "Três de cada quatro saíram aqui.",
+    "Refiz esse episódio duas vezes. Cotovelo."
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "gancho": "O desafio com a taxa de acerto: 'só 1 em cada 10 acerta'.",
+   "por_que": "A pessoa quer provar que está entre os que acertam; o desafio já é o motivo para ficar.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Só um em cada dez acerta.",
+    "Noventa por cento erra essa.",
+    "Ninguém da família acertou a última."
+   ]
+  },
+  {
+   "gancho": "A pergunta direto, com as opções já na tela e o relógio correndo.",
+   "por_que": "Sem preâmbulo: a pessoa responde na cabeça antes de decidir sair.",
+   "de_onde": "padrão do método",
+   "variacoes": [
+    "Quantos ossos tem um bebê?",
+    "Qual desses bichos dorme em pé?"
+   ]
+  }
+ ]
+}

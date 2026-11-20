@@ -1,0 +1,64 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo faceless, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/faceless",
+  "estilo": "faceless",
+  "amostra": true,
+  "nome": "exemplo_faceless",
+  "titulo": "Essa cidade some do mapa toda noite",
+  "capa": "Essa cidade some do mapa toda noite",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pm_alex"
+  },
+  "clima": "tenso",
+  "ficcao": true,
+  "capa_destaque": [
+    "SOME"
+  ],
+  "capa_rotulo": "FICÇÃO",
+  "blocos": [
+    {
+      "tipo": "imagem",
+      "fala": "Essa cidade some do mapa toda noite.",
+      "imagem": "cidade.jpg",
+      "tela": "ESSA CIDADE SOME DO MAPA TODA NOITE",
+      "destaque": [
+        "SOME"
+      ]
+    },
+    {
+      "tipo": "imagem",
+      "fala": "A única estrada só aparece na neblina.",
+      "imagem": "estrada.jpg",
+      "tela": "A ESTRADA SÓ APARECE NA NEBLINA",
+      "destaque": [
+        "NEBLINA"
+      ]
+    },
+    {
+      "tipo": "imagem",
+      "fala": "E quem entra não volta igual.",
+      "imagem": "cemiterio.jpg",
+      "tela": "QUEM ENTRA NÃO VOLTA IGUAL",
+      "destaque": [
+        "IGUAL"
+      ]
+    },
+    {
+      "tipo": "imagem",
+      "fala": "Você entraria?",
+      "imagem": "estrada.jpg",
+      "tela": "VOCÊ ENTRARIA?",
+      "destaque": [
+        "ENTRARIA"
+      ]
+    }
+  ],
+  "legenda": false,
+  "tema": {
+    "fundo": "#0A0C0E",
+    "fundo2": "#15181C",
+    "destaque": "#E8C46A",
+    "destaque2": "#5B6B73",
+    "destaque3": "#3A3F46"
+  }
+}

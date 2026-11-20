@@ -1,0 +1,10 @@
+{
+  "descricao": "Lola, 25 anos, personagem de exemplo do kit no estilo cápsula: corpo de feijão claro, vestido coral, laço verde-menta e cílios. Livre para usar e modificar.",
+  "molde": {
+    "pele": "#F2C09A", "roupa": "#FF6B5E", "calca": "#F2C09A", "sapato": "#2EC4B6",
+    "iris": "#2A1A14", "cabelo": "#5A3424", "acessorio": "#2EC4B6",
+    "acessorios": ["laco"], "cilios": true,
+    "pele_sombra": "#DE9F78", "roupa_esc": "#E04B44", "calca_esc": "#DE9F78",
+    "sola": "#1E9C91", "roupa_tipo": "blusa", "sapato_tipo": "sapatilha", "cabelo_estilo": "longo"
+  }
+}

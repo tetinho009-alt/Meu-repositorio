@@ -1,0 +1,41 @@
+{
+  "_sobre": "Exemplo do motor de cartelas (estilo top 5 com quiz no fim). Rode a partir de kit/: python cartelas/rodar.py cartelas/exemplo",
+  "estilo": "top5",
+  "nome": "exemplo_corpo_p1",
+  "titulo": "5 coisas que o seu corpo faz e você nunca reparou",
+  "capa": "O seu corpo faz isso e você nunca reparou",
+  "capa_destaque": ["NUNCA"],
+  "capa_rotulo": "TOP 5",
+  "parte": 1,
+  "proximo": "o que o corpo faz enquanto você dorme",
+  "voz": { "provedor": "kokoro", "voz": "pm_alex" },
+  "tema": { "fundo": "#0F1424", "destaque": "#FF6B4A", "destaque2": "#4FB3FF", "destaque3": "#C5EE4F" },
+  "fontes": [
+    "USGS, a água no corpo humano",
+    "Cleveland Clinic, frequência cardíaca e piscar",
+    "Britannica, ossos do recém-nascido"
+  ],
+  "post": {
+    "texto": "5 coisas que o seu corpo faz todo dia e você nunca reparou. A número 1 vale um teste: quantos ossos tem um bebê quando nasce?",
+    "hashtags": ["#curiosidades", "#corpohumano", "#vocesabia"],
+    "titulo_youtube": "5 coisas que o seu corpo faz e você nunca reparou"
+  },
+  "blocos": [
+    { "tipo": "gancho", "fala": "Seu corpo faz isso. Você nunca reparou.",
+      "tela": "SEU CORPO FAZ ISSO E VOCÊ NUNCA REPAROU", "destaque": ["NUNCA"] },
+    { "tipo": "item", "numero": 5, "fala": "Número cinco. De manhã, você é quase um centímetro mais alto do que à noite.",
+      "tela": "1 CM MAIS ALTO DE MANHÃ", "destaque": ["ALTO"] },
+    { "tipo": "texto", "fala": "Durante o dia, o peso do corpo aperta os discos da coluna. Dormindo, eles voltam.",
+      "tela": "A COLUNA APERTA DE DIA", "destaque": ["APERTA"] },
+    { "tipo": "item", "numero": 4, "fala": "Número quatro. O seu coração bate umas cem mil vezes por dia, sem você pedir.",
+      "tela": "100 MIL BATIDAS POR DIA", "destaque": ["100", "MIL"] },
+    { "tipo": "item", "numero": 3, "fala": "Número três. Você pisca umas quinze vezes por minuto, e o cérebro esconde cada piscada de você.",
+      "tela": "15 PISCADAS POR MINUTO", "destaque": ["15"] },
+    { "tipo": "item", "numero": 2, "fala": "Número dois. Mais da metade do seu corpo é água.",
+      "tela": "MAIS DA METADE É ÁGUA", "destaque": ["ÁGUA"] },
+    { "tipo": "quiz", "fala": "E o número um vale um teste. Quantos ossos tem um bebê quando nasce?",
+      "tela": "QUANTOS OSSOS TEM UM BEBÊ?", "opcoes": ["206", "Cerca de 300"], "certa": 1, "contagem": 3 },
+    { "tipo": "revela", "fala": "Cerca de trezentos. Com o tempo, vários se juntam, e o adulto fica com duzentos e seis." },
+    { "tipo": "fim", "fala": "Qual desses você não sabia?", "tela": "QUAL DESSES VOCÊ NÃO SABIA?", "destaque": ["NÃO"] }
+  ]
+}

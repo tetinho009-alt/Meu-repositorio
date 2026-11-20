@@ -1,0 +1,29 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo top 5 (versão curta, top 3), com a apresentadora animada. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/top5",
+  "estilo": "top5",
+  "amostra": true,
+  "nome": "exemplo_top5",
+  "titulo": "3 bichos que dormem do jeito mais estranho",
+  "capa": "3 bichos que dormem do jeito mais estranho",
+  "capa_destaque": ["ESTRANHO"],
+  "capa_rotulo": "TOP 3",
+  "voz": { "provedor": "kokoro", "voz": "pf_dora" },
+  "apresentador": { "personagem": "lola", "lado": "e" },
+  "fontes": ["National Geographic, lontras-marinhas", "Britannica, sono dos golfinhos", "Britannica, girafas"],
+  "post": {
+    "texto": "3 bichos que dormem do jeito mais estranho. Qual deles te pegou?",
+    "hashtags": ["#curiosidades", "#animais", "#vocesabia"],
+    "titulo_youtube": "3 bichos que dormem do jeito mais estranho"
+  },
+  "blocos": [
+    { "tipo": "gancho", "fala": "Três bichos que dormem esquisito.",
+      "tela": "3 BICHOS QUE DORMEM ESQUISITO", "destaque": ["ESQUISITO"] },
+    { "tipo": "item", "numero": 3, "fala": "A lontra, de mãos dadas.",
+      "tela": "A LONTRA DORME DE MÃOS DADAS", "destaque": ["MÃOS"] },
+    { "tipo": "item", "numero": 2, "fala": "O golfinho, com meio cérebro.",
+      "tela": "O GOLFINHO DORME COM MEIO CÉREBRO", "destaque": ["MEIO"] },
+    { "tipo": "item", "numero": 1, "fala": "A girafa, de pé.",
+      "tela": "A GIRAFA DORME DE PÉ", "destaque": ["PÉ"] },
+    { "tipo": "fim", "fala": "Qual te pegou?", "tela": "QUAL TE PEGOU?", "destaque": ["PEGOU"] }
+  ]
+}

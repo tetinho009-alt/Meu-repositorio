@@ -1,0 +1,62 @@
+[
+ {
+  "bloco": 0,
+  "palavra": "Um",
+  "ini": 0.0,
+  "fim": 0.28
+ },
+ {
+  "bloco": 0,
+  "palavra": "raio",
+  "ini": 0.28,
+  "fim": 0.58
+ },
+ {
+  "bloco": 0,
+  "palavra": "consegue",
+  "ini": 0.58,
+  "fim": 0.94
+ },
+ {
+  "bloco": 0,
+  "palavra": "entrar",
+  "ini": 0.94,
+  "fim": 1.36
+ },
+ {
+  "bloco": 0,
+  "palavra": "na",
+  "ini": 1.36,
+  "fim": 1.54
+ },
+ {
+  "bloco": 0,
+  "palavra": "sua",
+  "ini": 1.54,
+  "fim": 1.72
+ },
+ {
+  "bloco": 0,
+  "palavra": "casa?",
+  "ini": 1.72,
+  "fim": 2.12
+ },
+ {
+  "bloco": 0,
+  "palavra": "Consegue,",
+  "ini": 2.32,
+  "fim": 2.86
+ },
+ {
+  "bloco": 0,
+  "palavra": "pela",
+  "ini": 2.86,
+  "fim": 3.14
+ },
+ {
+  "bloco": 0,
+  "palavra": "fiação.",
+  "ini": 3.14,
+  "fim": 3.66
+ }
+]

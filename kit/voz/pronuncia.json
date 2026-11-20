@@ -1,0 +1,84 @@
+{
+  "_sobre": "Grafia de pronúncia dos termos em inglês para a voz em português (ElevenLabs). Só muda o texto enviado à voz: a legenda e a tela usam a grafia normal. Escolhida ouvindo um teste com 3 opções por termo. Para um termo novo, gere uma amostra curta com 3 grafias, escolha ouvindo e acrescente aqui. A ordem importa: termos compostos antes dos simples. Desligar: voz.elevenlabs.pronuncia = false no config.json.",
+  "trocas": [
+    [
+      "\\bClaude Code\\b",
+      "Clóudi Kôudi"
+    ],
+    [
+      "\\bClaude\\b",
+      "Clóudi"
+    ],
+    [
+      "\\bCode\\b",
+      "Kôudi"
+    ],
+    [
+      "\\bChatGPT\\b",
+      "Chat Gê Pê Tê"
+    ],
+    [
+      "\\bAntigravity\\b",
+      "Ântigrávitii"
+    ],
+    [
+      "\\bCapCut\\b",
+      "Kép Cât"
+    ],
+    [
+      "\\bInstagram\\b",
+      "Instagrãm"
+    ],
+    [
+      "\\bTikTok\\b",
+      "Tiquitóqui"
+    ],
+    [
+      "\\bYouTube\\b",
+      "Iutúbi"
+    ],
+    [
+      "\\bReels\\b",
+      "Ríls"
+    ],
+    [
+      "\\bZIP\\b|\\bzip\\b",
+      "zípi"
+    ],
+    [
+      "\\bWindows\\b",
+      "Uíndôus"
+    ],
+    [
+      "\\bMac\\b",
+      "Méqui"
+    ],
+    [
+      "\\bPro\\b",
+      "Pró"
+    ],
+    [
+      "\\bIA\\b",
+      "Í Á"
+    ],
+    [
+      "\\bDM\\b",
+      "dê ême"
+    ],
+    [
+      "\\bviews\\b",
+      "víus"
+    ],
+    [
+      "\\b3D\\b",
+      "três dê"
+    ],
+    [
+      "\\bShopee\\b",
+      "Xópi"
+    ]
+  ],
+  "fora_da_fala": [
+    "ElevenLabs"
+  ]
+}

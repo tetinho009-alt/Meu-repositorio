@@ -1,0 +1,50 @@
+{
+ "_sobre": "Modelo do estilo historia-real (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "historia-real",
+ "titulo": "TROQUE: o caso",
+ "capa": "TROQUE: título da capa",
+ "clima": "tenso",
+ "parte": 1,
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Charon"
+ },
+ "fontes": [
+  "TROQUE: fonte confiável de cada fato"
+ ],
+ "post": {
+  "texto": "TROQUE: o caso em duas frases. O que você acha que aconteceu?",
+  "hashtags": [
+   "#historiareal"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "TROQUE: o momento mais estranho do caso.",
+   "tela": "TROQUE",
+   "destaque": []
+  },
+  {
+   "tipo": "texto",
+   "rotulo": "TROQUE: ANO E LUGAR",
+   "fala": "TROQUE: quem, onde, quando.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "texto",
+   "fala": "Só que... TROQUE: a primeira virada.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "texto",
+   "fala": "TROQUE: a segunda virada.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "fim",
+   "fala": "TROQUE: o que ninguém sabe até hoje?",
+   "tela": "TROQUE"
+  }
+ ]
+}

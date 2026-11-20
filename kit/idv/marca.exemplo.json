@@ -1,0 +1,93 @@
+{
+  "nome": "Nome do Canal",
+  "arroba": "@seucanal",
+  "site": "seusite.com.br",
+  "slogan": "Uma frase curta que diz o que o canal promete.",
+  "chamada": "Séries animadas que você decide",
+  "banner_linhas": ["SÉRIES ANIMADAS", "QUE VOCÊ DECIDE"],
+
+  "cores": {
+    "fundo": "#0F1424",
+    "painel": "#181E31",
+    "painel2": "#232B42",
+    "texto": "#EEF2FA",
+    "texto_suave": "#9AA4BA",
+    "destaque": "#FF6B4A",
+    "destaque2": "#F0443A",
+    "acento": "#4FB3FF",
+    "acento2": "#2963C4",
+    "opcao1": "#FF6B4A",
+    "opcao2": "#4FB3FF",
+    "ok": "#4CD38C",
+    "titulo_claro": "#DDEBFF",
+    "contorno": "#121626"
+  },
+
+  "paleta_doc": [
+    {"nome": "Coral", "hex": "#FF6B4A", "uso": "O que precisa ser lido primeiro: pergunta do voto, vencedor. Texto escuro em cima."},
+    {"nome": "Céu", "hex": "#4FB3FF", "uso": "Segunda opção do voto, listras e cartão das peças do canal. Texto escuro em cima."},
+    {"nome": "Tinta", "hex": "#0F1424", "uso": "Fundo neutro; texto sobre o coral e o céu."},
+    {"nome": "Papel", "hex": "#EEF2FA", "uso": "Texto corrido sobre fundo escuro."},
+    {"nome": "Título", "hex": "#DDEBFF", "uso": "Nome da série sobre o fundo escuro."},
+    {"nome": "Apoio", "hex": "#9AA4BA", "uso": "Texto de apoio sobre fundo neutro."}
+  ],
+
+  "fontes": {
+    "titulo": "ArchivoBlack-Regular.ttf",
+    "mono": "Barlow-Bold.ttf",
+    "texto": "Inter-SemiBold.ttf",
+    "logo": "ArchivoBlack-Regular.ttf"
+  },
+
+  "tipografia_doc": [
+    {"papel": "titulo", "nome": "Archivo Black", "amostra": "NOME DA SÉRIE · PARTE 1",
+     "uso": "Nome da série, pergunta do voto, títulos. Sempre em maiúsculas.", "licenca": "SIL OFL 1.1"},
+    {"papel": "mono", "nome": "Barlow Bold", "amostra": "VOCÊ DECIDE A PARTE 2",
+     "uso": "Linhas de apoio, @, rótulos e contagem de votos (o papel se chama mono por compatibilidade).",
+     "licenca": "SIL OFL 1.1"},
+    {"papel": "texto", "nome": "Inter SemiBold", "amostra": "Comente a opção que você escolhe.",
+     "uso": "Texto corrido em post e card.", "licenca": "SIL OFL 1.1"}
+  ],
+
+  "logo": {
+    "ilustrado": null,
+    "linhas": ["NOME DO", "CANAL"],
+    "icone": "inicial",
+    "fundo_icone": "#FF6B4A"
+  },
+
+
+  "mascote": {
+    "nome": "",
+    "descricao": "Descreva o mascote em uma frase: o que ele é, cores e estilo do traço.",
+    "pose_padrao": null,
+    "poses": {},
+    "usos": {}
+  },
+
+  "banner_poses": [],
+  "modelos": {"pose_capa": null, "pose_post": null, "pose_parte": null, "pose_resultado": null},
+
+  "series": [
+    {"id": "serie_1", "nome": "Nome da Série", "cor": "#4FB3FF", "pose": null}
+  ],
+  "destaques_extra": [
+    {"id": "como_votar", "nome": "Como votar", "cor": "#FF6B4A", "pose": null}
+  ],
+
+  "voz": [
+    "Como o canal fala: idioma, tom, tamanho das frases.",
+    "De onde vem o medo (ou o riso): o que é do cotidiano do seu público.",
+    "Toda peça termina numa escolha com duas opções claras.",
+    "O que é ficção e o que é fato, e como isso aparece na tela.",
+    "Como o canal trata quem discorda."
+  ],
+  "fazer": [
+    "Usar a cor de destaque só no que precisa ser lido primeiro.",
+    "Manter título, parte e pergunta dentro da área 3:4 da capa."
+  ],
+  "nao_fazer": [
+    "Esticar, girar ou recolorir o logo e o mascote.",
+    "Gore ou imagem gráfica."
+  ]
+}

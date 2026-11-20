@@ -1,0 +1,78 @@
+{
+ "titulo": "Um raio consegue entrar na sua casa?",
+ "pasta": "explicativo3d_raio",
+ "fundo": "tempestade",
+ "gancho": {
+  "linhas": [
+   [
+    "UM RAIO ENTRA",
+    "branco"
+   ],
+   [
+    "NA SUA CASA?",
+    "destaque"
+   ]
+  ],
+  "ate": 1.6
+ },
+ "capa": [
+  "UM RAIO ENTRA",
+  "*NA SUA CASA?*"
+ ],
+ "destaques": [
+  "raio",
+  "casa",
+  "fiacao"
+ ],
+ "rotulos": [
+  [
+   "FIAÇÃO",
+   "pela",
+   "FIM",
+   "alerta"
+  ]
+ ],
+ "cta_segundos": 1.0,
+ "proximo_video": "ONDE SE ESCONDER NA TEMPESTADE",
+ "ctas": {
+  "IG": {
+   "linhas": [
+    [
+     "SEGUE PRA VER",
+     "branco"
+    ],
+    [
+     "ONDE SE ESCONDER",
+     "destaque"
+    ]
+   ],
+   "selo": "SEGUIR"
+  },
+  "TIKTOK": {
+   "linhas": [
+    [
+     "SEGUE PRA NÃO PERDER",
+     "branco"
+    ],
+    [
+     "ONDE SE ESCONDER",
+     "destaque"
+    ]
+   ],
+   "selo": "SEGUIR"
+  },
+  "YOUTUBE": {
+   "linhas": [
+    [
+     "INSCREVE PRA VER",
+     "branco"
+    ],
+    [
+     "ONDE SE ESCONDER",
+     "destaque"
+    ]
+   ],
+   "selo": "INSCREVER-SE"
+  }
+ }
+}

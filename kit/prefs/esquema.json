@@ -1,0 +1,665 @@
+{
+ "_sobre": "Esquema das preferências do canal: cada campo com o valor recomendado, a explicação de uma linha e o nível (basico aparece de cara; avancado abre com um clique). Os valores do usuário ficam em canal/preferencias.json. 'plano' marca o que seria de um plano pago no futuro; hoje tudo é liberado.",
+ "secoes": {
+  "canal": {
+   "titulo": "Canal",
+   "explica": "Quem é o canal: nome, assunto, público e jeito de falar.",
+   "campos": {
+    "nome": {
+     "rotulo": "Nome do canal",
+     "tipo": "texto",
+     "recomendado": "",
+     "explica": "Como o canal se chama, do jeito que aparece no perfil.",
+     "nivel": "basico",
+     "max": 60
+    },
+    "arroba": {
+     "rotulo": "@ do canal",
+     "tipo": "arroba",
+     "recomendado": "",
+     "explica": "O mesmo @ nas redes escolhidas; sem espaço e sem acento.",
+     "nivel": "basico",
+     "max": 30
+    },
+    "nicho": {
+     "rotulo": "Do que o canal fala",
+     "tipo": "texto_longo",
+     "recomendado": "",
+     "explica": "O assunto e o recorte. A IA só faz vídeo dentro dele.",
+     "nivel": "basico"
+    },
+    "publico": {
+     "rotulo": "Quem assiste",
+     "tipo": "texto_longo",
+     "recomendado": "",
+     "explica": "Idade e o que a pessoa já sabe. Público com menor de idade muda o que pode entrar.",
+     "nivel": "basico"
+    },
+    "tom": {
+     "rotulo": "Como a voz conversa",
+     "tipo": "texto_longo",
+     "recomendado": "amigo contando uma história, frases curtas, sem tom de professor e sem gíria forçada",
+     "explica": "O jeito de falar de todo vídeo.",
+     "nivel": "basico"
+    },
+    "nunca": {
+     "rotulo": "O que nunca pode entrar",
+     "tipo": "texto_longo",
+     "recomendado": "palavrão, humor com o corpo de alguém, sangue, promessa de dinheiro",
+     "explica": "Vale para roteiro, tela e legenda.",
+     "nivel": "basico"
+    },
+    "marca_registrada": {
+     "rotulo": "Marca registrada",
+     "tipo": "texto_longo",
+     "recomendado": "",
+     "explica": "O que todo vídeo seu tem e o dos outros não (a mesma frase de abertura, um personagem, um relógio).",
+     "nivel": "basico"
+    },
+    "assinatura": {
+     "rotulo": "Frase do fim",
+     "tipo": "texto",
+     "recomendado": "Segue pra ver a próxima parte.",
+     "explica": "A frase que fecha todo vídeo, quando o estilo não termina em voto.",
+     "nivel": "basico",
+     "max": 80
+    },
+    "caminho": {
+     "rotulo": "Caminho",
+     "tipo": "escolha",
+     "recomendado": "gratis",
+     "explica": "Grátis: Antigravity ou Codex + voz do Google. Recomendado: Claude Code + ElevenLabs.",
+     "nivel": "basico",
+     "opcoes": [
+      "gratis",
+      "recomendado"
+     ]
+    },
+    "idioma": {
+     "rotulo": "Idioma",
+     "tipo": "escolha",
+     "recomendado": "pt-BR",
+     "explica": "Idioma da voz, da tela e da legenda.",
+     "nivel": "avancado",
+     "opcoes": [
+      "pt-BR"
+     ]
+    },
+    "logo": {
+     "rotulo": "Logo",
+     "tipo": "imagem",
+     "recomendado": "",
+     "explica": "PNG quadrado; aparece redondo no fim do vídeo e no perfil.",
+     "nivel": "avancado"
+    },
+    "mascote": {
+     "rotulo": "Mascote",
+     "tipo": "imagem",
+     "recomendado": "",
+     "explica": "PNG com fundo transparente, opcional.",
+     "nivel": "avancado"
+    },
+    "cor_destaque": {
+     "rotulo": "Cor de destaque",
+     "tipo": "cor",
+     "recomendado": "#FF6B4A",
+     "explica": "A cor das palavras-chave e do brilho.",
+     "nivel": "avancado"
+    },
+    "cor_destaque2": {
+     "rotulo": "Segunda cor",
+     "tipo": "cor",
+     "recomendado": "#4FB3FF",
+     "explica": "Etiquetas e cartões.",
+     "nivel": "avancado"
+    },
+    "cor_destaque3": {
+     "rotulo": "Terceira cor",
+     "tipo": "cor",
+     "recomendado": "#C5EE4F",
+     "explica": "Chamadas e botões.",
+     "nivel": "avancado"
+    },
+    "cor_fundo": {
+     "rotulo": "Cor do fundo",
+     "tipo": "cor",
+     "recomendado": "#0F1424",
+     "explica": "Fundo escuro: a cor da marca vira brilho em cima dele.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "redes": {
+   "titulo": "Redes",
+   "explica": "Onde você posta. O pacote sai só para as redes marcadas.",
+   "campos": {
+    "escolhidas": {
+     "rotulo": "Redes onde vou postar",
+     "tipo": "multi",
+     "recomendado": [
+      "instagram",
+      "tiktok",
+      "youtube_shorts"
+     ],
+     "explica": "Marque uma, várias ou todas.",
+     "nivel": "basico",
+     "opcoes": [
+      "instagram",
+      "tiktok",
+      "youtube_shorts",
+      "youtube_longo",
+      "kwai"
+     ]
+    },
+    "horario": {
+     "rotulo": "Horário de postar",
+     "tipo": "texto",
+     "recomendado": "entre 18h e 21h, no mesmo horário todo dia",
+     "explica": "Constância de horário treina quem segue a esperar o próximo.",
+     "nivel": "basico"
+    },
+    "hashtags_fixas": {
+     "rotulo": "Hashtags de todo vídeo",
+     "tipo": "lista",
+     "recomendado": [],
+     "explica": "Até 2 fixas; as outras a IA escolhe pelo assunto de cada vídeo.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "roteiro": {
+   "titulo": "Roteiro",
+   "explica": "Como a IA escreve cada episódio.",
+   "campos": {
+    "estilo_padrao": {
+     "rotulo": "Estilo padrão",
+     "tipo": "escolha",
+     "recomendado": "top5",
+     "explica": "O estilo do catálogo usado quando você não diz qual.",
+     "nivel": "basico",
+     "opcoes": [
+      "serie-2d-voto",
+      "terror-voto",
+      "pov",
+      "explicativo-3d",
+      "novela-anime",
+      "novela-frutas",
+      "tipografia",
+      "faceless",
+      "top5",
+      "historia-real",
+      "antes-depois",
+      "bastidores",
+      "quiz"
+     ]
+    },
+    "duracao_alvo_s": {
+     "rotulo": "Duração-alvo (segundos)",
+     "tipo": "numero",
+     "recomendado": 0,
+     "explica": "0 = a duração ideal do estilo. Outro número é conferido contra a faixa do estilo.",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 600
+    },
+    "partes": {
+     "rotulo": "Partes por série",
+     "tipo": "numero",
+     "recomendado": 6,
+     "explica": "Quantos episódios a série tem antes do final (a temporada pede 5 a 7).",
+     "nivel": "avancado",
+     "min": 1,
+     "max": 30
+    },
+    "tipo_voto": {
+     "rotulo": "Fim do episódio",
+     "tipo": "escolha",
+     "recomendado": "pergunta_aberta",
+     "explica": "Pergunta aberta com duas saídas vale como voto; 'comenta X ou Y' a Meta rebaixa.",
+     "nivel": "basico",
+     "opcoes": [
+      "pergunta_aberta",
+      "sem_voto"
+     ]
+    },
+    "viradas_max_s": {
+     "rotulo": "Virada a cada (segundos, no máximo)",
+     "tipo": "numero",
+     "recomendado": 15,
+     "explica": "Um 'só que...' a cada tantos segundos segura a curva.",
+     "nivel": "avancado",
+     "min": 6,
+     "max": 30
+    },
+    "cta_meio": {
+     "rotulo": "Chamada no meio",
+     "tipo": "booleano",
+     "recomendado": false,
+     "explica": "Se você vende algo: uma fala no meio, ligada ao tema, logo depois de uma pergunta aberta.",
+     "nivel": "basico"
+    },
+    "cta_meio_frase": {
+     "rotulo": "Frase da chamada no meio",
+     "tipo": "texto",
+     "recomendado": "aprenda a fazer vídeos assim pelo link na bio",
+     "explica": "Só na voz, uma vez, sem domínio, sem @ e sem preço.",
+     "nivel": "avancado",
+     "max": 90
+    },
+    "fechamento_quase": {
+     "rotulo": "Fechar com um 'quase'",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "O episódio termina com algo que quase dá errado: puxa o próximo.",
+     "nivel": "avancado"
+    },
+    "palavras_proibidas": {
+     "rotulo": "Palavras proibidas a mais",
+     "tipo": "lista",
+     "recomendado": [],
+     "explica": "Além das que a Meta pune (o kit já confere essas).",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "ganchos": {
+   "titulo": "Ganchos",
+   "explica": "O primeiro segundo decide se a pessoa fica.",
+   "campos": {
+    "gancho_max_s": {
+     "rotulo": "Gancho em até (segundos)",
+     "tipo": "numero",
+     "recomendado": 3,
+     "explica": "A premissa inteira entendida por um estranho nesse tempo.",
+     "nivel": "avancado",
+     "min": 1.5,
+     "max": 5
+    },
+    "sem_abertura_muda": {
+     "rotulo": "Imagem e texto antes da fala",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Nada de tela preta ou silêncio no começo: imagem e texto já no quadro 0.",
+     "nivel": "avancado"
+    },
+    "variacoes_ab": {
+     "rotulo": "Variações de gancho",
+     "tipo": "numero",
+     "recomendado": 3,
+     "explica": "Quantas aberturas a IA propõe para você escolher (teste A/B).",
+     "nivel": "avancado",
+     "min": 1,
+     "max": 5
+    },
+    "biblioteca_extra": {
+     "rotulo": "Meus ganchos",
+     "tipo": "lista",
+     "recomendado": [],
+     "explica": "Ganchos seus que funcionaram; a IA usa como molde.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "voz": {
+   "titulo": "Voz",
+   "explica": "Quem narra e como.",
+   "campos": {
+    "provedor": {
+     "rotulo": "Voz",
+     "tipo": "escolha",
+     "recomendado": "gemini",
+     "explica": "Gemini: grátis do Google. Kokoro: grátis, sem internet. ElevenLabs: paga, a melhor.",
+     "nivel": "basico",
+     "opcoes": [
+      "gemini",
+      "kokoro",
+      "elevenlabs"
+     ]
+    },
+    "voz_id": {
+     "rotulo": "Voz escolhida",
+     "tipo": "texto",
+     "recomendado": "",
+     "explica": "Nome ou código da voz (as amostras ajudam a escolher). Vazio = a voz padrão do provedor.",
+     "nivel": "basico",
+     "max": 80
+    },
+    "estilo_gemini": {
+     "rotulo": "Jeito de falar (Gemini)",
+     "tipo": "texto",
+     "recomendado": "narrador brasileiro, sotaque do Brasil, voz firme e natural, ritmo de conversa",
+     "explica": "Descrição do jeito, nunca lida em voz alta.",
+     "nivel": "avancado",
+     "max": 200
+    },
+    "velocidade_kokoro": {
+     "rotulo": "Velocidade (Kokoro)",
+     "tipo": "numero",
+     "recomendado": 0.95,
+     "explica": "1 = normal. Ritmo se ajusta na voz, nunca acelerando o áudio pronto.",
+     "nivel": "avancado",
+     "min": 0.8,
+     "max": 1.2
+    },
+    "estabilidade": {
+     "rotulo": "Estabilidade (ElevenLabs)",
+     "tipo": "numero",
+     "recomendado": 0.5,
+     "explica": "Mais alto = mais constante; mais baixo = mais emoção e mais variação.",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 1,
+     "plano": "premium-futuro"
+    },
+    "emocao": {
+     "rotulo": "Emoção (ElevenLabs)",
+     "tipo": "numero",
+     "recomendado": 0.3,
+     "explica": "Quanto a voz exagera o tom. Acima de 0,6 costuma soar teatral.",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 1,
+     "plano": "premium-futuro"
+    }
+   }
+  },
+  "visual": {
+   "titulo": "Visual",
+   "explica": "Movimento e acabamento.",
+   "campos": {
+    "camera_viva": {
+     "rotulo": "Câmera viva",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Aproxima devagar e dá um tranco no corte: nada fica parado.",
+     "nivel": "avancado"
+    },
+    "motion_blur": {
+     "rotulo": "Borrão de movimento",
+     "tipo": "numero",
+     "recomendado": 0,
+     "explica": "Subquadros por quadro (0 = sem). 3 a 6 só com placa de vídeo: o render fica mais lento.",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 8
+    },
+    "transicao": {
+     "rotulo": "Transição",
+     "tipo": "escolha",
+     "recomendado": "flash_whoosh",
+     "explica": "Flash curto + som de passagem no corte, ou corte seco.",
+     "nivel": "avancado",
+     "opcoes": [
+      "flash_whoosh",
+      "corte_seco"
+     ]
+    },
+    "particulas": {
+     "rotulo": "Partículas no fundo",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Pontos de luz subindo devagar atrás do texto.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "legenda": {
+   "titulo": "Legenda",
+   "explica": "O texto embaixo, palavra por palavra.",
+   "campos": {
+    "ativa": {
+     "rotulo": "Legenda",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Muita gente assiste sem som. Na tipografia cinética o próprio texto já é a legenda.",
+     "nivel": "avancado"
+    },
+    "tamanho": {
+     "rotulo": "Tamanho",
+     "tipo": "numero",
+     "recomendado": 64,
+     "explica": "Em pixels, num vídeo de 1080x1920.",
+     "nivel": "avancado",
+     "min": 44,
+     "max": 90
+    },
+    "cor": {
+     "rotulo": "Cor",
+     "tipo": "cor",
+     "recomendado": "#FFFFFF",
+     "explica": "Cor das palavras.",
+     "nivel": "avancado"
+    },
+    "cor_destaque": {
+     "rotulo": "Cor do destaque",
+     "tipo": "cor",
+     "recomendado": "#C5EE4F",
+     "explica": "Palavra-chave na legenda.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "capa": {
+   "titulo": "Capa",
+   "explica": "A capa sai por código: o texto nunca passa por IA de imagem.",
+   "campos": {
+    "layout": {
+     "rotulo": "Modelo de capa",
+     "tipo": "escolha",
+     "recomendado": "titulo_grande",
+     "explica": "Título gigante no centro, dentro do recorte 3:4 do perfil.",
+     "nivel": "avancado",
+     "opcoes": [
+      "titulo_grande",
+      "titulo_e_personagem"
+     ]
+    },
+    "rotulo": {
+     "rotulo": "Etiqueta",
+     "tipo": "texto",
+     "recomendado": "",
+     "explica": "Palavra pequena acima do título (ex.: TOP 5, PARTE NOVA).",
+     "nivel": "avancado",
+     "max": 24
+    }
+   }
+  },
+  "render": {
+   "titulo": "Render",
+   "explica": "Qualidade e velocidade do vídeo final.",
+   "campos": {
+    "fps": {
+     "rotulo": "Quadros por segundo",
+     "tipo": "escolha",
+     "recomendado": 60,
+     "explica": "60 com placa de vídeo; 30 sem placa ou na nuvem.",
+     "nivel": "avancado",
+     "opcoes": [
+      30,
+      60
+     ]
+    },
+    "qualidade": {
+     "rotulo": "Qualidade",
+     "tipo": "numero",
+     "recomendado": 21,
+     "explica": "Menor = melhor e mais pesado. 18 a 23 é o bom.",
+     "nivel": "avancado",
+     "min": 16,
+     "max": 28
+    },
+    "teto_bitrate": {
+     "rotulo": "Teto de bitrate",
+     "tipo": "escolha",
+     "recomendado": "8M",
+     "explica": "Limite do tamanho do vídeo por segundo.",
+     "nivel": "avancado",
+     "opcoes": [
+      "6M",
+      "8M",
+      "12M"
+     ]
+    },
+    "gpu": {
+     "rotulo": "Placa de vídeo",
+     "tipo": "escolha",
+     "recomendado": "auto",
+     "explica": "auto usa a placa se ela funcionar; nao força a CPU.",
+     "nivel": "avancado",
+     "opcoes": [
+      "auto",
+      "nao"
+     ]
+    },
+    "motor_3d": {
+     "rotulo": "Motor do vídeo 3D",
+     "tipo": "escolha",
+     "recomendado": "auto",
+     "explica": "Para o Explicativo 3D. Automático: Blender se o computador tiver placa de vídeo e o Blender; senão Three.js. Na nuvem (celular), só o Three.js funciona.",
+     "nivel": "basico",
+     "opcoes": [
+      "auto",
+      "blender",
+      "threejs"
+     ]
+    },
+    "modo_leve": {
+     "rotulo": "Modo leve",
+     "tipo": "booleano",
+     "recomendado": false,
+     "explica": "Para computador fraco ou nuvem: meia resolução, 30 fps, sem borrão. Mais rápido, imagem mais macia.",
+     "nivel": "basico"
+    }
+   }
+  },
+  "audio": {
+   "titulo": "Áudio",
+   "explica": "Trilha e efeitos, todos feitos por código.",
+   "campos": {
+    "trilha": {
+     "rotulo": "Trilha de fundo",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Cama musical baixinha, que abaixa sozinha quando a voz fala.",
+     "nivel": "avancado"
+    },
+    "volume_trilha": {
+     "rotulo": "Volume da trilha",
+     "tipo": "numero",
+     "recomendado": 0.55,
+     "explica": "0 a 1 (antes de abaixar sob a voz).",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 1
+    },
+    "ducking": {
+     "rotulo": "Quanto a trilha abaixa sob a voz",
+     "tipo": "numero",
+     "recomendado": 0.65,
+     "explica": "0 = não abaixa; 1 = some.",
+     "nivel": "avancado",
+     "min": 0,
+     "max": 0.95
+    },
+    "efeitos": {
+     "rotulo": "Efeitos sonoros",
+     "tipo": "booleano",
+     "recomendado": true,
+     "explica": "Passagem, impacto, tique do quiz.",
+     "nivel": "avancado"
+    }
+   }
+  },
+  "metricas": {
+   "titulo": "Métricas",
+   "explica": "Onde anotar os números e o que mudar no próximo.",
+   "campos": {
+    "rede_principal": {
+     "rotulo": "Rede principal",
+     "tipo": "escolha",
+     "recomendado": "instagram",
+     "explica": "A rede cujos números guiam o próximo episódio.",
+     "nivel": "avancado",
+     "opcoes": [
+      "instagram",
+      "tiktok",
+      "youtube_shorts",
+      "youtube_longo",
+      "kwai"
+     ]
+    },
+    "dias_para_medir": {
+     "rotulo": "Medir depois de (dias)",
+     "tipo": "numero",
+     "recomendado": 2,
+     "explica": "Números de menos de 2 dias enganam.",
+     "nivel": "avancado",
+     "min": 1,
+     "max": 7
+    }
+   }
+  }
+ },
+ "redes_detalhe": {
+  "instagram": {
+   "rotulo": "Instagram (Reels)",
+   "pasta": "IG",
+   "formato": "9:16",
+   "duracao_max_s": 180,
+   "cta": "SEGUE PRA VER {alvo}",
+   "hashtags_max": 5,
+   "legenda_max": 2200,
+   "legenda_y_max": 1420,
+   "explica": "Acima de 3 min não é recomendado para quem não segue."
+  },
+  "tiktok": {
+   "rotulo": "TikTok",
+   "pasta": "TIKTOK",
+   "formato": "9:16",
+   "duracao_max_s": 600,
+   "cta": "SEGUE PRA NÃO PERDER {alvo}",
+   "hashtags_max": 5,
+   "legenda_max": 2200,
+   "legenda_y_max": 1380,
+   "explica": "Acima de 1 min conta para o programa de criadores."
+  },
+  "youtube_shorts": {
+   "rotulo": "YouTube Shorts",
+   "pasta": "YOUTUBE",
+   "formato": "9:16",
+   "duracao_max_s": 180,
+   "cta": "SE INSCREVE PRA VER {alvo}",
+   "hashtags_max": 3,
+   "legenda_max": 5000,
+   "legenda_y_max": 1420,
+   "explica": "Até 3 min; acima de 1 min com reivindicação de direitos fica bloqueado."
+  },
+  "youtube_longo": {
+   "rotulo": "YouTube (vídeo longo 16:9)",
+   "pasta": "YOUTUBE_LONGO",
+   "formato": "16:9",
+   "duracao_max_s": 3600,
+   "cta": "SE INSCREVE PRA VER {alvo}",
+   "hashtags_max": 3,
+   "legenda_max": 5000,
+   "explica": "O filme da série em horizontal (metodo/video-longo.md), feito quando há 3 partes ou mais."
+  },
+  "kwai": {
+   "rotulo": "Kwai",
+   "pasta": "KWAI",
+   "formato": "9:16",
+   "duracao_max_s": 600,
+   "cta": "SEGUE PRA VER {alvo}",
+   "hashtags_max": 5,
+   "legenda_max": 2000,
+   "legenda_y_max": 1380,
+   "explica": "Mesmo vertical do TikTok; o público é parecido."
+  }
+ },
+ "premium_futuro": [
+  "voz.estabilidade e voz.emocao (ajuste fino da ElevenLabs)",
+  "pacote para mais de 3 redes por episódio",
+  "leitura automática das métricas das redes no painel",
+  "render na nuvem"
+ ]
+}

@@ -1,0 +1,4 @@
+Bloco 0: a anomalia dita no quadro 0, sobre a imagem dela (é o gancho; nada de título antes).
+Bloco 1: uma a três orações por linha. Uma linha = um bloco.
+Bloco 2: as pausas entre blocos são decididas no episodio.json, não aqui.
+{PERGUNTA}

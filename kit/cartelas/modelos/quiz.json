@@ -1,0 +1,70 @@
+{
+ "_sobre": "Modelo do estilo quiz (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "quiz",
+ "titulo": "TROQUE: só 1 em cada 10 acerta as três",
+ "capa": "TROQUE: o desafio",
+ "capa_rotulo": "QUIZ",
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Puck"
+ },
+ "fontes": [
+  "TROQUE: fonte de cada resposta"
+ ],
+ "post": {
+  "texto": "TROQUE: o desafio. Quantas você acertou?",
+  "hashtags": [
+   "#quiz"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "TROQUE: o desafio em uma frase.",
+   "tela": "SÓ 1 EM CADA 10 ACERTA",
+   "destaque": [
+    "1",
+    "10"
+   ]
+  },
+  {
+   "tipo": "quiz",
+   "fala": "TROQUE: a pergunta um?",
+   "tela": "TROQUE: A PERGUNTA?",
+   "opcoes": [
+    "opção A",
+    "opção B",
+    "opção C"
+   ],
+   "certa": 0,
+   "contagem": 3
+  },
+  {
+   "tipo": "revela",
+   "fala": "TROQUE: a resposta e o porquê em meia frase."
+  },
+  {
+   "tipo": "quiz",
+   "fala": "TROQUE: a pergunta dois?",
+   "tela": "TROQUE: A PERGUNTA?",
+   "opcoes": [
+    "opção A",
+    "opção B"
+   ],
+   "certa": 1,
+   "contagem": 3
+  },
+  {
+   "tipo": "revela",
+   "fala": "TROQUE: a resposta."
+  },
+  {
+   "tipo": "fim",
+   "fala": "Quantas você acertou?",
+   "tela": "QUANTAS VOCÊ ACERTOU?",
+   "destaque": [
+    "QUANTAS"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "_sobre": "Modelo do estilo bastidores (metodo/estilos/). Troque cada TROQUE e rode, a partir de kit/: python cartelas/rodar.py <pasta>",
+ "estilo": "bastidores",
+ "titulo": "TROQUE: como eu faço X",
+ "capa": "TROQUE",
+ "capa_rotulo": "BASTIDORES",
+ "blur": 4,
+ "voz": {
+  "provedor": "gemini",
+  "voz": "Puck"
+ },
+ "post": {
+  "texto": "TROQUE: o processo em duas frases.",
+  "hashtags": [
+   "#bastidores"
+  ]
+ },
+ "blocos": [
+  {
+   "tipo": "gancho",
+   "fala": "TROQUE: o resultado, já na primeira frase.",
+   "tela": "TROQUE: O RESULTADO",
+   "destaque": []
+  },
+  {
+   "tipo": "texto",
+   "fala": "Bastidores.",
+   "tela": "BASTIDORES",
+   "destaque": [
+    "BASTIDORES"
+   ]
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "prints/01.png",
+   "rotulo": "PASSO 1",
+   "fala": "TROQUE: o passo um.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "prints/02.png",
+   "rotulo": "PASSO 2",
+   "fala": "TROQUE: o passo dois.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "imagem",
+   "imagem": "prints/03.png",
+   "rotulo": "PASSO 3",
+   "fala": "TROQUE: o passo três.",
+   "tela": "TROQUE"
+  },
+  {
+   "tipo": "cta",
+   "fala": "Segue pra ver o próximo bastidor.",
+   "tela": "SEGUE PRA VER O PRÓXIMO"
+  }
+ ]
+}

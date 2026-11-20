@@ -1,0 +1,10 @@
+{
+  "descricao": "Nico, 30 anos, personagem de exemplo do kit no estilo cápsula: corpo de feijão moreno, camiseta verde-água, óculos redondos coral e topete. Livre para usar e modificar.",
+  "molde": {
+    "pele": "#B5764F", "roupa": "#1FA39A", "calca": "#2F4A6B", "sapato": "#F0644E",
+    "iris": "#24160F", "cabelo": "#2E1E16", "acessorio": "#F0644E",
+    "acessorios": ["oculos", "topete"], "cilios": false,
+    "pele_sombra": "#94593A", "roupa_esc": "#14807A", "calca_esc": "#223853",
+    "sola": "#C24A38", "roupa_tipo": "blusa", "sapato_tipo": "tenis", "cabelo_estilo": "raspado"
+  }
+}

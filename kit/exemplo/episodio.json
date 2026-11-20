@@ -1,0 +1,20 @@
+{
+  "serie": "A Luz da Casa 7",
+  "parte": 1,
+  "titulo": "Alguém acenou",
+  "personagem": "lola",
+  "pergunta": "O que a Lola faz?",
+  "opcoes": [
+    ["Entrar", "atravessa o portão e entra"],
+    ["Fugir", "corre pra casa e tranca a porta"]
+  ],
+  "palavras_voto": { "1": ["ENTRAR", "ENTRA", "ENTRO"], "2": ["FUGIR", "FOGE", "CORRE", "CORRER"] },
+  "nega": { "1": "2", "2": "1" },
+  "gancho": ["A LUZ ACENDEU", "SOZINHA"],
+  "bloco_voto": 3,
+  "chaves": { "0": ["SOZINHA."], "1": ["DEZ"], "2": ["ACENOU"] },
+  "inicio_narracao": 0.0,
+  "pausas": [0.45, 0.4, 0.6],
+  "cauda_voto": 2.2,
+  "voz": { "provedor": "kokoro", "voz": "pm_alex" }
+}

@@ -1,0 +1,28 @@
+{
+  "_leia": "Comentários fictícios para testar o robô de respostas a seco: python -m publicar.responder_votos --respostas exemplo/respostas.json --seco --comentarios-exemplo exemplo/comentarios_exemplo.json",
+  "eu": "seu_perfil",
+  "midias": [
+    {
+      "id": "17900000000000001",
+      "permalink": "https://www.instagram.com/reel/EXEMPLO123/",
+      "comentarios": [
+        { "id": "c01", "text": "1", "username": "leitor_a", "minutos_atras": 30 },
+        { "id": "c02", "text": "ENTRAR com certeza", "username": "leitor_b", "minutos_atras": 28 },
+        { "id": "c03", "text": "fugiiir kkk", "username": "leitor_c", "minutos_atras": 25 },
+        { "id": "c04", "text": "entrar ou fugir? difícil", "username": "leitor_d", "minutos_atras": 22 },
+        { "id": "c05", "text": "que medo dessa casa", "username": "leitor_e", "minutos_atras": 20 },
+        { "id": "c06", "text": "2", "username": "leitor_b", "minutos_atras": 18 },
+        { "id": "c07", "text": "𝒻𝓊𝑔𝒾𝓇", "username": "leitor_f", "minutos_atras": 15 },
+        { "id": "c08", "text": "corre Lola!!", "username": "leitor_g", "minutos_atras": 12 },
+        { "id": "c09", "text": "Entra", "username": "leitor_h", "minutos_atras": 10 },
+        { "id": "c10", "text": "2 sem pensar", "username": "leitor_i", "minutos_atras": 8 },
+        { "id": "c11", "text": "1", "username": "seu_perfil", "minutos_atras": 5 },
+        { "id": "c12", "text": "1", "username": "leitor_velho", "minutos_atras": 20000 },
+        { "id": "c13", "text": "2222222", "username": "leitor_j", "minutos_atras": 7 },
+        { "id": "c14", "text": "não entra de jeito nenhum", "username": "leitor_k", "minutos_atras": 6 },
+        { "id": "c15", "text": "ENTRAR", "from": { "id": "900001", "username": "leitor_l" }, "minutos_atras": 4 },
+        { "id": "c16", "text": "quem tá na janela é a mãe dela?", "username": "leitor_m", "minutos_atras": 3 }
+      ]
+    }
+  ]
+}

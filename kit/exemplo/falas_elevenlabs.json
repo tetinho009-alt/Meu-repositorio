@@ -1,0 +1,8 @@
+[
+  { "saida": "falas_eleven/01_narrador.mp3", "personagem": "narrador", "provedor": "elevenlabs", "modelo": "eleven_v3",
+    "voz": "COLE_AQUI_O_VOICE_ID_DO_NARRADOR", "texto": "[whispers] A luz da casa sete acendeu sozinha. De novo." },
+  { "saida": "falas_eleven/02_lola.mp3", "personagem": "lola", "provedor": "elevenlabs", "modelo": "eleven_v3",
+    "voz": "COLE_AQUI_O_VOICE_ID_DA_LOLA", "texto": "[nervous] Tem alguém lá dentro. Tá acenando pra mim." },
+  { "saida": "falas_eleven/03_narrador.mp3", "personagem": "narrador", "provedor": "elevenlabs", "modelo": "eleven_v3",
+    "voz": "COLE_AQUI_O_VOICE_ID_DO_NARRADOR", "texto": "E agora? O que a Lola faz?" }
+]

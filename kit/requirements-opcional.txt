@@ -1,0 +1,11 @@
+# Opcionais: instale só o que for usar.
+# pip install -r requirements-opcional.txt
+#
+# Sem GPU NVIDIA (nuvem, Mac, PC comum), instale ANTES o PyTorch de CPU, que é bem menor:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+faster-whisper>=1.1     # alinhar.py: tempo de cada palavra (GPU se houver CUDA, senão CPU int8); MIT
+kokoro>=0.9.4           # voz local pt-BR (Kokoro-82M, Apache-2.0); precisa do espeak-ng do sistema
+# piper-tts>=1.2        # voz local rápida em CPU (cada voz tem a licença do seu conjunto de dados)
+# azure-cognitiveservices-speech>=1.40   # Azure com tempo de palavra (sem ele, o Azure usa REST)
+# edge-tts>=7.0         # SÓ TESTE: sem licença comercial; bloqueado por padrão no kit

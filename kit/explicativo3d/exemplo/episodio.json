@@ -1,0 +1,36 @@
+{
+  "_leia": "Tudo o que muda de um episódio para outro e não é a cena 3D. Rótulos e marcos são por palavra da narração (início da palavra), nunca por segundo: troque a voz e o vídeo se reajusta. O nome de cada rótulo tem de existir nas âncoras de cena.py.",
+
+  "titulo": "A caravela-portuguesa não é uma água-viva",
+  "pasta": "explicativo3d_caravela",
+  "fundo": "mar",
+
+  "gancho": { "linhas": [["ISSO NÃO É UMA", "branco"], ["ÁGUA-VIVA", "destaque"]], "ate": 2.0 },
+  "capa": ["ISSO NÃO É UMA", "*ÁGUA-VIVA*"],
+
+  "destaques": ["agua-viva", "condominio", "namora", "sozinho"],
+
+  "rotulos": [
+    ["BOIA", "boia", "sozinho"],
+    ["CAÇADORES", "caça", "sozinho"],
+    ["DIGESTÃO", "come", "sozinho"],
+    ["FILHOTES", "namora", "sozinho"]
+  ],
+
+  "cta_segundos": 2.2,
+  "proximo_video": "POR QUE ELA QUEIMA MESMO MORTA",
+  "ctas": {
+    "IG": {
+      "linhas": [["SEGUE PRA VER", "branco"], ["POR QUE ELA QUEIMA", "destaque"], ["MESMO MORTA", "destaque"]],
+      "selo": "SEGUIR"
+    },
+    "TIKTOK": {
+      "linhas": [["SEGUE PRA NÃO PERDER", "branco"], ["POR QUE ELA QUEIMA", "destaque"], ["MESMO MORTA", "destaque"]],
+      "selo": "SEGUIR"
+    },
+    "YOUTUBE": {
+      "linhas": [["SE INSCREVE PRA VER", "branco"], ["POR QUE ELA QUEIMA", "destaque"], ["MESMO MORTA", "destaque"]],
+      "selo": "INSCREVER-SE"
+    }
+  }
+}

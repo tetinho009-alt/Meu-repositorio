@@ -1,0 +1,10 @@
+# configuração e segredos do usuário (nunca versionar)
+config.json
+*.segredos.json
+.env
+
+# saídas
+trabalho/
+__pycache__/
+*.pyc
+

@@ -1,0 +1,11 @@
+{
+  "/reel/EXEMPLO123": {
+    "opcoes": { "1": ["ENTRAR", "ENTRA", "ENTRO"], "2": ["FUGIR", "FOGE", "CORRE", "CORRER"] },
+    "respostas": {
+      "1": ["Coragem anotada. A casa 7 lembra de quem entra.", "Voto contado. O portão range quando alguém decide entrar.",
+            "Entrar... a janela vai gostar disso.", "Anotado. Tomara que a luz não apague no meio."],
+      "2": ["Voto contado. Correr nem sempre é fugir.", "Anotado. A porta de casa tranca... mas por quanto tempo?",
+            "Fugir também é escolha. A casa 7 espera.", "Contado. Ninguém acenou pra você... ainda."]
+    }
+  }
+}

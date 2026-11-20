@@ -1,0 +1,12 @@
+three.js 0.187.0 (r187), pacote npm "three", publicado em 30/10/2026. Licença MIT (LICENSE nesta pasta).
+Origem: https://registry.npmjs.org/three/-/three-0.187.0.tgz, baixado em 16/11/2026. Arquivos copiados sem alteração:
+
+  build/three.module.js                      -> three.module.js
+  build/three.core.js                        -> three.core.js
+  examples/jsm/loaders/GLTFLoader.js         -> addons/loaders/GLTFLoader.js
+  examples/jsm/utils/BufferGeometryUtils.js  -> addons/utils/BufferGeometryUtils.js
+  examples/jsm/utils/SkeletonUtils.js        -> addons/utils/SkeletonUtils.js
+
+O pacote 0.187 não traz mais three.module.min.js; o build normal é servido localmente, sem diferença no render.
+sha256 three.module.js 104f56145899722094556490d787aae0617cc2fc3382f31df02d724ea1aee341
+sha256 three.core.js   613e370f76638fdef83926642bf256dc9615684922de1ce1f63a8583e5d78578

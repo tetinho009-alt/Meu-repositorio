@@ -1,0 +1,51 @@
+{
+  "_sobre": "Exemplo de 10 s do estilo historia-real, feito no caminho grátis. Rode a partir de kit/: python cartelas/rodar.py ../exemplos/estilos/historia-real",
+  "estilo": "historia-real",
+  "amostra": true,
+  "nome": "exemplo_historia",
+  "titulo": "Em 1518, uma cidade não parava de dançar",
+  "capa": "Em 1518, uma cidade não parava de dançar",
+  "voz": {
+    "provedor": "kokoro",
+    "voz": "pm_alex"
+  },
+  "apresentador": {
+    "personagem": "nico",
+    "lado": "e"
+  },
+  "clima": "tenso",
+  "capa_destaque": [
+    "DANÇAR"
+  ],
+  "capa_rotulo": "HISTÓRIA REAL",
+  "fontes": [
+    "Britannica, a praga da dança de Estrasburgo (1518)"
+  ],
+  "blocos": [
+    {
+      "tipo": "gancho",
+      "fala": "Uma cidade inteira não parava de dançar.",
+      "tela": "UMA CIDADE INTEIRA NÃO PARAVA DE DANÇAR",
+      "destaque": [
+        "DANÇAR"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "fala": "Foi em Estrasburgo, e até hoje ninguém sabe por quê.",
+      "rotulo": "FRANÇA, 1518",
+      "tela": "ESTRASBURGO. ATÉ HOJE NINGUÉM SABE POR QUÊ",
+      "destaque": [
+        "NINGUÉM"
+      ]
+    },
+    {
+      "tipo": "fim",
+      "fala": "Qual é o seu palpite?",
+      "tela": "QUAL É O SEU PALPITE?",
+      "destaque": [
+        "PALPITE"
+      ]
+    }
+  ]
+}

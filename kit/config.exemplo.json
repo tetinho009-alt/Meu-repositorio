@@ -1,0 +1,119 @@
+{
+  "estilo": "padrao",
+  "_estilo": "padrao (recorte, cores do canal) ou desenhado (o estilo próprio sorteado em comandos/criar-estilo.md, gravado em kit/estilo.json). Vale para a série inteira.",
+
+  "_leia": "Copie para config.json e ajuste. Caminhos relativos valem a partir da pasta deste arquivo. Chaves e tokens NUNCA vão aqui: use variável de ambiente (lista no README) ou um arquivo de segredos FORA da pasta do kit.",
+
+  "perfil": "@seu_perfil",
+
+  "cta": {
+    "frase": "",
+    "_frase": "Texto da cauda de produto, usado só com cta_redes.py --cauda sem texto. Não recomendado: a Meta rebaixa vídeo com cauda; o produto entra só na voz, no meio (roteiro.cta_meio nas preferências).",
+    "chamada_fixado": "Quer saber como esse vídeo foi feito? Tá no comentário fixado.",
+    "_chamada_fixado": "Fala curta do narrador (só voz e legenda) logo depois do gancho, quando o comentário fixado tem o que a pessoa procura. Vazia = sem chamada."
+  },
+
+  "pastas": {
+    "trabalho": "./trabalho",
+    "fontes": "./fontes",
+    "personagens": "./personagens"
+  },
+
+  "fontes": {
+    "titulo": "Anton-Regular.ttf",
+    "legenda": "Inter-ExtraBold.ttf",
+    "texto": "Inter-SemiBold.ttf",
+    "mono": "IBMPlexMono-SemiBold.ttf",
+    "capa_titulo": "ArchivoBlack-Regular.ttf",
+    "capa_apoio": "Barlow-Bold.ttf"
+  },
+
+  "ferramentas": {
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "vectorcraft": ""
+  },
+
+  "render": {
+    "gpu": "auto",
+    "encoder": "auto",
+    "fps": 60,
+    "_fps": "60 com placa de vídeo (GPU local); 30 sem placa ou na nuvem (CPU). A instalação ajusta.",
+    "largura": 1080,
+    "altura": 1920,
+    "qualidade": 21,
+    "teto_bitrate": "8M",
+    "x264_preset": "medium",
+    "processos_cpu": "auto",
+    "sessoes_gpu": 3,
+    "_sessoes_gpu": "quantos vídeos usam o encoder da placa ao mesmo tempo; os outros vão para o libx264",
+    "escala_cpu": 1.0
+  },
+
+  "audio": {
+    "taxa": 48000,
+    "lufs": -14.0,
+    "pico_dbtp": -1.5,
+    "lra": 11.0,
+    "bitrate_aac": "192k"
+  },
+
+  "_cores": "Paleta padrão do kit (coral, céu e tinta): troque pelas cores do canal. opcao1 e opcao2 são as cores do voto (tela, capa e placar); destaque tinge o cartão da capa e a luz de recorte; fundo é o escuro da capa.",
+  "cores": {
+    "opcao1": "#FF6B4A",
+    "opcao2": "#4FB3FF",
+    "destaque": "#3D8EF0",
+    "texto": "#EEF2FA",
+    "fundo": "#0F1424"
+  },
+
+  "zona_segura": { "x0": 120, "x1": 900, "y0": 280, "y1": 1250, "legenda_y_max": 1420 },
+
+  "voz": {
+    "provedor": "kokoro",
+    "permitir_nao_comercial": false,
+    "elevenlabs": {
+      "modelo": "eleven_v3",
+      "voz": "",
+      "intervalo_min_s": 20,
+      "max_tentativas": 6,
+      "espera_base_s": 30,
+      "formato": "mp3_44100_128",
+      "idioma": "pt"
+    },
+    "gemini": {
+      "_sobre": "Voz grátis do Google AI Studio (chave: python chave.py --qual gemini). Vozes: Charon, Kore, Puck, Fenrir, Aoede, Orus, Leda, Zephyr...",
+      "modelo": "gemini-3.8-flash-tts",
+      "voz": "Charon",
+      "estilo": "narrador brasileiro, sotaque do Brasil, voz firme e natural, ritmo de conversa",
+      "intervalo_min_s": 7,
+      "max_tentativas": 6,
+      "espera_base_s": 20
+    },
+    "azure": { "regiao": "brazilsouth", "voz": "pt-BR-AntonioNeural" },
+    "kokoro": { "voz": "pm_alex", "idioma": "p", "velocidade": 0.95, "pasta_modelo": "" },
+    "piper": { "executavel": "piper", "modelo": "" },
+    "edge": { "voz": "pt-BR-AntonioNeural", "taxa": "+0%" }
+  },
+
+  "whisper": { "modelo": "small", "pasta_modelos": "" },
+
+  "publicar": {
+    "instagram": { "api": "https://graph.instagram.com", "versao": "v21.0", "rotulo_ia": true, "compartilhar_no_feed": true, "renovar_dias": 45 },
+    "youtube": { "categoria": "1", "privacidade": "private", "midia_sintetica": false },
+    "tiktok": { "api": "https://open.tiktokapis.com" }
+  },
+
+  "respostas": {
+    "por_rodada": 3,
+    "por_dia": 30,
+    "amostra": 0.5,
+    "pausa_s": [4, 11],
+    "idade_max_dias": 7,
+    "horario": [9, 1],
+    "manual_pausa_s": [60, 150],
+    "manual_max_caracteres": 300
+  },
+
+  "segredos": { "arquivo": "" }
+}
