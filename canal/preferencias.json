@@ -1,0 +1,33 @@
+{
+ "canal": {
+  "nome": "Rua Sem Saída",
+  "arroba": "ruasemsaida",
+  "nicho": "suspense e terror urbano em partes, com voto do público: série O Último Ônibus",
+  "publico": "quem pega condução de madrugada, 16 a 35 anos, periferia de cidade grande",
+  "tom": "sério, sussurrado e tenso, como quem conta um segredo no fundo do ônibus; frases curtas",
+  "nunca": "susto barato com grito, sangue ou violência gráfica, gíria forçada",
+  "marca_registrada": "todo vídeo abre com o letreiro do ônibus mostrando a hora (0h40, 0h41...) e cada parte termina com o som da campainha de parada",
+  "assinatura": "A próxima parada depende de vocês. Segue pra não perder a parte 2.",
+  "caminho": "recomendado",
+  "cor_destaque": "#FF6B4A",
+  "cor_destaque2": "#4FB3FF",
+  "cor_destaque3": "#FFC83D",
+  "cor_fundo": "#0F1424"
+ },
+ "redes": {
+  "escolhidas": [
+   "instagram",
+   "tiktok",
+   "youtube_shorts"
+  ]
+ },
+ "roteiro": {
+  "estilo_padrao": "terror-voto"
+ },
+ "voz": {
+  "provedor": "elevenlabs"
+ },
+ "capa": {
+  "layout": "titulo_e_personagem"
+ }
+}
