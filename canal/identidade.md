@@ -18,9 +18,9 @@ As duas cores do voto (opção 1 e opção 2) ficam fixas no canal inteiro: na t
 
 | | Cor |
 |---|---|
-| Opção 1 | |
-| Opção 2 | |
-| Destaque (pergunta, palavra-chave da legenda) | |
+| Opção 1 | coral `#FF6B4A` |
+| Opção 2 | azul-céu `#4FB3FF` |
+| Destaque (pergunta, palavra-chave da legenda) | amarelo de letreiro `#FFC83D` |
 
 ## Personagem principal
 
@@ -36,7 +36,7 @@ As duas cores do voto (opção 1 e opção 2) ficam fixas no canal inteiro: na t
 
 ## Capa (thumbnail)
 
-- Modelo escolhido:
+- Modelo escolhido: padrão de série (Davi grande, "O ÚLTIMO ÔNIBUS" gigante, "PARTE N" e a pergunta do voto)
 - O que sempre aparece: nome da série gigante, "PARTE N", a pergunta (igual à da tela), "FICÇÃO" quando for ficção.
 - Área útil: o miolo 3:4 da imagem 9:16 (é o que a grade do Instagram mostra).
 

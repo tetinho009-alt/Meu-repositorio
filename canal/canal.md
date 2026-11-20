@@ -24,7 +24,7 @@ estilos: terror-voto
 | O que evitar | susto barato com grito, sangue ou violência gráfica, gíria forçada |
 | Personagem e lugar padrão | Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans, crachá pendurado. Lugar padrão: ponto de ônibus sob um poste, numa avenida vazia |
 | Marca registrada | todo vídeo abre com o letreiro do ônibus mostrando a hora (0h40, 0h41...) e cada parte termina com o mesmo som da campainha de parada |
-| Capa e cor | |
+| Capa e cor | padrão de série; voto coral #FF6B4A x azul-céu #4FB3FF, destaque amarelo #FFC83D; logo a fazer (kit/idv) |
 | Assinatura do fim (CTA) | |
 | Narrador (voz e ferramenta) | |
 | Onde produz | computador com NVIDIA / computador comum / celular |
