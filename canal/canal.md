@@ -1,6 +1,6 @@
 ---
 status: nao-configurado
-caminho:
+caminho: recomendado
 estilos:
 ---
 
@@ -15,7 +15,7 @@ estilos:
 | Nome do canal | |
 | @ | |
 | Redes | Instagram, TikTok, YouTube |
-| Caminho | grátis / recomendado (ver `metodo/caminhos.md`) |
+| Caminho | recomendado (Claude Code na nuvem) |
 | Estilos | do catálogo `metodo/estilos/README.md` |
 | Tema ou nicho (e pra quem) | |
 | Primeira série | |
@@ -29,7 +29,7 @@ estilos:
 | Narrador (voz e ferramenta) | |
 | Onde produz | computador com NVIDIA / computador comum / celular |
 | Pilha | Zero / Criador / Estúdio (ver `metodo/pilhas-e-ferramentas.md`) |
-| Modo | computador / nuvem (celular) |
+| Modo | nuvem (celular) |
 | Jeito de trabalhar | etapa por etapa / direto ao vídeo |
 | Vídeos por semana | |
 | Já tem público? | |
