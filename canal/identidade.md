@@ -4,7 +4,7 @@
 
 ## Estilo (Atlas de Estilos)
 
-Escolhido: 
+Escolhido: **Noite de Bairro** (fundo tinta `#0F1424`, coral `#FF6B4A`, céu `#4FB3FF`; luz de poste, vinheta, grão leve)
 
 | Estilo | Cores | Luz e textura | Melhor para |
 |---|---|---|---|
@@ -24,7 +24,7 @@ As duas cores do voto (opção 1 e opção 2) ficam fixas no canal inteiro: na t
 
 ## Personagem principal
 
-- Descrição:
+- Descrição: Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans, crachá pendurado. Lugar padrão: ponto de ônibus sob um poste, numa avenida vazia.
 - Arquivo do personagem (quando existir): `kit/personagens/<nome>/`
 - Regras: adulto ou adolescente; cabelo feminino longo ou coque; nunca criança como chamariz de capa.
 

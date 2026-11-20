@@ -23,7 +23,7 @@ estilos: terror-voto
 | Tom da narração | sério, sussurrado e tenso, como quem conta um segredo no fundo do ônibus |
 | O que evitar | susto barato com grito, sangue ou violência gráfica, gíria forçada |
 | Personagem e lugar padrão | Davi, 27 anos, garçom que sai do turno tarde; cabelo curto, jaqueta jeans, crachá pendurado. Lugar padrão: ponto de ônibus sob um poste, numa avenida vazia |
-| Marca registrada | |
+| Marca registrada | todo vídeo abre com o letreiro do ônibus mostrando a hora (0h40, 0h41...) e cada parte termina com o mesmo som da campainha de parada |
 | Capa e cor | |
 | Assinatura do fim (CTA) | |
 | Narrador (voz e ferramenta) | |
