@@ -1,0 +1,23 @@
+[
+ {
+  "n": 1,
+  "nome": "Charon",
+  "voice_id": "Charon",
+  "descricao": "grave e informativa",
+  "arquivo": "../series/o-ultimo-onibus/amostras/1_gemini-Charon.mp3"
+ },
+ {
+  "n": 2,
+  "nome": "Orus",
+  "voice_id": "Orus",
+  "descricao": "firme",
+  "arquivo": "../series/o-ultimo-onibus/amostras/2_gemini-Orus.mp3"
+ },
+ {
+  "n": 3,
+  "nome": "Puck",
+  "voice_id": "Puck",
+  "descricao": "animada",
+  "arquivo": "../series/o-ultimo-onibus/amostras/3_gemini-Puck.mp3"
+ }
+]
