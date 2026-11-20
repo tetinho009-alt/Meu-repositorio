@@ -372,9 +372,10 @@ def letreiro(c, t, texto="340 · 00:40", aceso=1.0, zoom=1.0):
     c.restore()
 
 
-def celular(c, t, u):
+def celular(c, t, u, fundo=True):
     """Tela do celular: o mapa com o pontinho azul num lugar em branco; depois a mensagem que não vai."""
-    _papel_fundo(c, (12, 14, 20), 5)
+    if fundo:
+        _papel_fundo(c, (12, 14, 20), 5)
     d = T.Desenho()
     T.peca(d, _ret(230, 300, 620, 1240), (18, 18, 22), 21, sombra=1.6)
     T.peca(d, _ret(260, 360, 560, 1110), (232, 230, 220), 22, sombra=0.3)
@@ -470,9 +471,9 @@ def davi_sentado(t, medo=0.0, olhar=(0.0, 0.0), dormindo=False):
     return fn
 
 
-def close_davi(c, t, fundo, medo=0.0, olhar=(0.0, 0.0), dormindo=False, x=560, escala=1.0):
+def close_davi(c, t, fundo, medo=0.0, olhar=(0.0, 0.0), dormindo=False, x=560, escala=1.0, borra=14):
     """Close: o fundo (uma função que desenha o plano) desfocado e o Davi grande na frente, da cintura pra cima."""
-    c.saveLayer(None, skia.Paint(ImageFilter=skia.ImageFilters.Blur(14, 14)))
+    c.saveLayer(None, skia.Paint(ImageFilter=skia.ImageFilters.Blur(borra, borra)))
     fundo(c)
     c.restore()
     c.drawRect(skia.Rect.MakeWH(W, H), T.tinta_paint((4, 6, 10), 70))
@@ -523,11 +524,20 @@ def plano(c, t):
     elif b == 7:                                 # Davi senta, encosta no vidro e fecha o olho
         close_davi(c, t, lambda cc: interior(cc, t, CamG(x=0.6, h=1.3, F=900, hz=900, z=2.0, yaw=8)), dormindo=k > 0.55,
                    olhar=(0.4, 0.1))
-    elif b in (8, 9):                            # acorda: a avenida acabou, a rua estreita sem placa descendo
-        cam = CamG(x=0.0, h=3.4, F=950, hz=760, z=-6.0 + 1.2 * (t - seg(8)), pitch=6)
-        rua(c, t, cam, sem_placa=True, onibus_z=4.0 + 1.2 * (t - seg(8)), luz_bus=1.0)
-    elif b in (10, 11):                          # o celular
-        celular(c, t, 0.0 if b == 10 else 1.0)
+    elif b == 8:                                 # acorda e olha pela janela
+        close_davi(c, t, lambda cc: rua(cc, t, CamG(x=0.0, h=1.6, F=900, hz=900, z=2.0 + 1.0 * u), sem_placa=True), medo=0.6,
+                   olhar=(-0.6, 0.0), x=640, borra=8)
+    elif b == 9:                                 # a rua estreita sem placa, descendo
+        cam = CamG(x=0.0, h=3.4, F=950, hz=760, z=-6.0 + 1.2 * u, pitch=6)
+        rua(c, t, cam, sem_placa=True, onibus_z=4.0 + 1.2 * u, luz_bus=1.0)
+    elif b in (10, 11):                          # o celular na mão do Davi
+        close_davi(c, t, lambda cc: interior(cc, t, CamG(x=0.6, h=1.3, F=900, hz=900, z=2.0, yaw=8)), medo=0.5 if b == 10 else 0.9,
+                   olhar=(0.2, 0.5), x=330, escala=0.95)
+        c.save()
+        c.translate(420, 640)
+        c.scale(0.62, 0.62)
+        celular(c, t, 0.0 if b == 10 else 1.0, fundo=False)
+        c.restore()
     elif b == 12:                                # o reflexo no vidro
         vidro(c, t, k, reflexo=1.0 if k > 0.45 else 0.0)
     elif b == 13:                                # vira: o banco do fundo vazio
@@ -536,8 +546,9 @@ def plano(c, t):
                        olhar=(0.0, -0.2), x=420)
         else:   # o banco do fundo, vazio
             interior(c, t, CamG(x=0.0, h=1.3, F=1300, hz=900, z=3.0, yaw=0))
-    elif b in (14, 15):                          # o vidro embaçado com a regra
+    elif b in (14, 15):                          # o vidro embaçado com a regra, o Davi lendo
         vidro(c, t, (t - seg(14)) / 3.0, texto="NUNCA DESÇA\nNUM PONTO\nSEM PLACA")
+        DAVI.desenhar(c, 540, 2900, 1650, pose_davi(t, 0.9, (0.0, -0.6)))
     elif b == 16:                                # pedido de seguir: o ônibus de fora na rua escura
         cam = CamG(x=-3.0, h=1.0, F=900, hz=980, z=-4.0, yaw=12)
         rua(c, t, cam, sem_placa=True, onibus_z=10.0 + 2.0 * u)
@@ -549,6 +560,9 @@ def plano(c, t):
         interior(c, t, cam)
         if u > 0.6:
             UI.carimbo(c, "PARADA SOLICITADA", W / 2, 420, tam=50, rot=-2, t=t, cor=(200, 40, 30))
+    elif b == 19 and k >= 0.5:                   # o Davi encarando a porta aberta
+        close_davi(c, t, lambda cc: rua(cc, t, CamG(x=1.2, h=1.6, F=900, hz=900, z=-3.0, yaw=0), sem_placa=True), medo=1.0,
+                   olhar=(0.5, -0.1), x=360, borra=6)
     elif b == 19:                                # a porta abre pra calçada escura e o poste piscando
         cam = CamG(x=1.2, h=1.6, F=900, hz=900, z=-3.0, yaw=0)
         rua(c, t, cam, sem_placa=True)
